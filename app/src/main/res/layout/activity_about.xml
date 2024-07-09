@@ -1,68 +1,75 @@
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".About">
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/background_biologi"
+        android:src="@drawable/background_tumbuhan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Judul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35dp"
-        android:text="Biologi SMA"
         android:background="@drawable/border"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="60dp"
+        android:text="Tentang Kami"
+        android:textSize="35dp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/Tentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/border"
+        android:padding="20dp"
+        android:text="Kami adalah kelompok 6 Struktur Data \n\n Dosen : Pak Hermansyah \n terdiri dari (Ase, Bintang, Marchello Kristy, Rafael, Vico)
+        \n\n mempersembahkan aplikasi Biologi SMA sehingga dapat menambah ilmu pengetahuan dan wawasan tentang apa yang ada di sekitar kita di harapkan dapat mencerdaskan kehidupan bangsa"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Judul" />
+
     <Button
-        android:id="@+id/mulai"
+        android:id="@+id/kembali"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:onClick="Tombol_Mulai"
-        android:text="Mulai"
+        android:onClick="Tombol_Kembali"
+        android:text="Kembali"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-
+        app:layout_constraintTop_toBottomOf="@+id/Tentang" />
 
     <Button
-        android:id="@+id/about"
+        android:id="@+id/feedback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:onClick="Tombol_About"
-        android:text="About"
+        android:onClick="Tombol_Feedback"
+        android:text="Feedback"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mulai" />
+        app:layout_constraintTop_toBottomOf="@+id/kembali" />
 
-    <Button
-        android:id="@+id/exitButton"
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Exit"
-        android:onClick="exitButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/about" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

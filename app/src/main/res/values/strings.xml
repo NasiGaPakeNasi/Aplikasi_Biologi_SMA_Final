@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Aplikasi_Biologi_SMA_Final</string>
+    <string name="Pendahuluan_Flora"> Tumbuhan sangat beragam, tersebar dari laut hingga puncak gunung, dan sangat penting bagi kehidupan di bumi. Mereka melakukan fotosintesis, memberikan energi bagi manusia dan hewan, serta membantu menjaga tanah dan iklim. Organisme heterotrof, seperti hewan dan beberapa bakteri, bergantung pada zat organik dari organisme lain karena tidak bisa mensintesis makanan sendiri.
+Tumbuhan, sebagai organisme autotrof, dapat membuat makanannya sendiri dengan bantuan energi dari luar, seperti sinar matahari. Sebagian besar organisme autotrof termasuk tumbuhan berbiji, alga, lumut, dan tumbuhan paku. Pembahasan tumbuhan di sini mencakup lumut (Briophyta), tumbuhan paku (Pteridophyta), dan tumbuhan berbiji (Spermatophyta).
+Tumbuhan membentuk zat organik dari zat anorganik melalui fotosintesis, bersifat multiseluler, dan memiliki dinding sel dari hemiselulosa. Tumbuhan dapat bereproduksi secara vegetatif maupun generatif. Tumbuhan berbiji adalah yang tertinggi tingkatannya dengan akar, batang, dan daun nyata, serta biji sebagai alat perkembangbiakan, disebut kormophyta berbiji. Tumbuhan paku juga termasuk kormophyta karena memiliki akar, batang, dan daun sejati, dengan spora sebagai alat reproduksi, disebut kormophyta berspora.</string>
+    <string name="Flora1">*Thallophyta*
+
+Thallophyta adalah kelompok tumbuhan yang belum memiliki akar, batang, dan daun yang nyata, seperti lumut (Bryophyta). Lumut memiliki rizoid yang berfungsi sebagai akar semu untuk menyerap air dan zat hara serta menambatkan tubuh lumut pada tempat hidupnya. Lumut tumbuh di tempat teduh dan lembab dan dikenal sebagai tumbuhan kosmopolit karena dapat hidup di berbagai lingkungan.
+
+Lumut bersifat autotrof karena mampu melakukan fotosintesis. Reproduksinya melibatkan pembentukan spora dalam sporogonium. Spora ini terbentuk melalui meiosis dan disebarkan oleh angin. Jika jatuh di tempat lembab, spora akan tumbuh menjadi protonema dan akhirnya menjadi lumut baru, mengalami metagenesis antara generasi gametofit dan sporofit. Lumut juga dapat berkembang biak secara aseksual melalui tunas atau fragmen talus.
+
+*Kelas Lumut*
+
+1. *Hepaticae (Lumut Hati)*:
+   - *Ordo Anthocerotales (Lumut Tanduk)*: Memiliki talus berbentuk cakram, melekat dengan rizoid, sporangium berbentuk tanduk.
+     - Contoh: Anthoceros laevis, Anthoceros fusiformis.
+
+   - *Ordo Marchantiales*: Talus berbentuk pita, bercabang menggarpu, memiliki rizoid dan sisik ventral. Reproduksi dengan arkegoniofor dan anteridiofor.
+     - Famili Marchantiaceae: Marchantia polymorpha, Marchantia geminata.
+     - Famili Ricciaceae: Riccia fluitans, Riccia nutans.
+
+   - *Ordo Jungermaniales*: Talus kecil, berbentuk pita, hidup epifit.
+     - Famili Acroynaceae: Plagiochila asplenoides.
+     - Famili Anacrogynaceae: Pnellia epiphylla, Blasia pusilla.
+
+Lumut hati memiliki talus pipih dorsiventral dan hidup di tempat lembab, sementara lumut tanduk memiliki sporangium berbentuk tanduk.</string>
 </resources>
