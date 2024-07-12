@@ -28,17 +28,19 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
 
         <TextView
+            android:fontFamily="@font/jetbrain"
             android:id="@+id/PilihMateri"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/border"
             android:text="Pilih Materi"
-            android:textColor="@color/black"
+            android:textColor="@color/warna_tulisan"
             android:layout_marginTop="20dp"
-            android:textSize="20dp"
+            android:textSize="25dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/scrollView2" />
@@ -48,14 +50,14 @@
             android:id="@+id/Gambar_Tumbuhan"
             android:layout_width="350dp"
             android:layout_height="200dp"
-            android:layout_marginTop="76dp"
             android:onClick="Tombol_Tumbuhan"
             android:scaleType="fitXY"
+            android:layout_marginTop="20dp"
             android:src="@drawable/tumbuhan"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/PilihMateri" />
 
         <TextView
             android:id="@+id/Text_Flora"
@@ -63,18 +65,19 @@
             android:layout_height="wrap_content"
             android:text="Flora"
             android:textSize="20dp"
-            android:textColor="@color/black"
+            android:fontFamily="@font/jetbrain"
+            android:textColor="@color/warna_tulisan"
             android:background="@drawable/border"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             app:layout_constraintTop_toBottomOf="@id/Gambar_Tumbuhan"/>
 
         <ImageButton
             android:id="@+id/Gambar_Zoologi"
             android:layout_width="350dp"
             android:layout_height="200dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="20dp"
             android:onClick="Tombol_Zoologi"
             android:scaleType="fitXY"
             android:src="@drawable/zoologi"
@@ -88,18 +91,19 @@
             android:layout_height="wrap_content"
             android:text="Fauna"
             android:textSize="20dp"
-            android:textColor="@color/black"
+            android:textColor="@color/warna_tulisan"
             android:background="@drawable/border"
+            android:fontFamily="@font/jetbrain"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             app:layout_constraintTop_toBottomOf="@id/Gambar_Zoologi"/>
 
         <ImageButton
             android:id="@+id/ComingSoon1"
             android:layout_width="350dp"
             android:layout_height="200dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="20dp"
             android:onClick="Tombol_ComingSoon"
             android:scaleType="fitXY"
             android:src="@drawable/comingsoon"
@@ -113,11 +117,12 @@
             android:layout_height="wrap_content"
             android:text="Coming Soon!"
             android:textSize="20dp"
-            android:textColor="@color/black"
+            android:textColor="@color/warna_tulisan"
             android:background="@drawable/border"
             app:layout_constraintEnd_toEndOf="parent"
+            android:fontFamily="@font/jetbrain"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             app:layout_constraintTop_toBottomOf="@id/ComingSoon1"/>
 
         <Button
@@ -125,8 +130,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Tombol_Kembali"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="25dp"
             android:text="Kembali"
+            android:fontFamily="@font/jetbrain"
+            android:textColor="@color/warna_tulisan"
+            android:backgroundTint="@color/button_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/ComingSoon"/>

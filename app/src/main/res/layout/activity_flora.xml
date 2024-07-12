@@ -1,4 +1,3 @@
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -35,12 +34,13 @@
             <TextView
                 android:fontFamily="@font/jetbrain"
                 android:id="@+id/textView2"
+                android:textColor="@color/warna_tulisan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/border"
                 android:text="Flora"
-                android:textSize="35dp"
+                android:textSize="25dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -55,6 +55,7 @@
                 android:fontFamily="@font/jetbrain"
                 android:gravity="left"
                 android:padding="15dp"
+                android:textColor="@color/warna_tulisan"
                 android:text="@string/Pendahuluan_Flora"
                 android:textSize="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -65,9 +66,11 @@
             <ImageView
                 android:id="@+id/Gambar_Thallophyta"
                 android:layout_width="350dp"
-                android:layout_height="200dp"
+                android:layout_height="170dp"
                 android:src="@drawable/ayam"
+                android:layout_marginTop="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                android:background="@drawable/border"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/Materi" />
 
@@ -75,10 +78,11 @@
                 android:id="@+id/Materi1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/border"
                 android:fontFamily="@font/jetbrain"
                 android:padding="20dp"
+                android:textColor="@color/warna_tulisan"
                 android:text="@string/Flora1"
                 android:textSize="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -92,6 +96,8 @@
                 android:layout_height="wrap_content"
                 android:onClick="Tombol_MulaiQuizFlora"
                 android:text="Quiz"
+                android:textColor="@color/warna_tulisan"
+                android:backgroundTint="@color/button_color"
                 android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

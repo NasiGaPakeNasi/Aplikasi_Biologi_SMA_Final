@@ -35,43 +35,44 @@
 
             <TextView
                 android:id="@+id/textView2"
+                android:fontFamily="@font/jetbrain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@color/white"
+                android:textColor="@color/warna_tulisan"
+                android:background="@drawable/border"
                 android:text="Fauna"
-                android:textSize="35dp"
+                android:textSize="25dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/fauna"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/fauna"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
             <TextView
                 android:id="@+id/Materi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Pendahuluan_Flora"
-                android:layout_marginTop="20dp"
-                android:background="@color/white"
+                android:textColor="@color/warna_tulisan"
+                android:text="@string/Fauna"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/jetbrain"
+                android:background="@drawable/border"
                 android:textSize="15dp"
                 android:padding="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-            <TextView
-                android:id="@+id/Materi1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@color/white"
-                android:text="@string/Flora1"
-                android:textSize="15dp"
-                android:padding="20dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Materi" />
+                app:layout_constraintTop_toBottomOf="@+id/fauna" />
 
             <Button
                 android:id="@+id/MulaiQuizFlora"
@@ -80,9 +81,11 @@
                 android:onClick="Tombol_MulaiQuizFauna"
                 android:text="Quiz"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/warna_tulisan"
+                android:backgroundTint="@color/button_color"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Materi1" />
+                app:layout_constraintTop_toBottomOf="@+id/Materi" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

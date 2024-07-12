@@ -52,10 +52,34 @@ public class QuizFlora extends AppCompatActivity {
 
     private void initializeQuiz() {
         questionsList = new ArrayList<>();
-        questionsList.add(new Question("Apa fungsi klorofil dalam fotosintesis?", "Menyerap cahaya matahari", "Mengangkut air", "Menyerap karbon dioksida", "Menghasilkan oksigen", "Menyerap cahaya matahari"));
-        questionsList.add(new Question("Apa yang dimaksud dengan mitosis?", "Pembelahan sel somatik", "Pembelahan sel gamet", "Pembelahan inti sel", "Pembentukan RNA", "Pembelahan sel somatik"));
-        questionsList.add(new Question("Apa yang dimaksud dengan ATP?", "Molekul penyimpan energi", "Asam nukleat", "Protein struktural", "Enzim pencernaan", "Molekul penyimpan energi"));
-        questionsList.add(new Question("Dimana proses respirasi sel terjadi?", "Mitokondria", "Ribosom", "Nukleus", "Kloroplas", "Mitokondria"));
+
+        questionsList.add(new Question("Apa fungsi klorofil dalam fotosintesis?",
+                "Menyerap cahaya matahari",
+                "Mengangkut air",
+                "Menyerap karbon dioksida",
+                "Menghasilkan oksigen",
+                "Menyerap cahaya matahari"));
+
+        questionsList.add(new Question("Apa yang dimaksud dengan mitosis?",
+                "Pembelahan sel somatik",
+                "Pembelahan sel gamet",
+                "Pembelahan inti sel",
+                "Pembentukan RNA",
+                "Pembelahan sel somatik"));
+
+        questionsList.add(new Question("Apa yang dimaksud dengan ATP?",
+                "Molekul penyimpan energi",
+                "Asam nukleat",
+                "Protein struktural",
+                "Enzim pencernaan",
+                "Molekul penyimpan energi"));
+
+        questionsList.add(new Question("Dimana proses respirasi sel terjadi?",
+                "Mitokondria",
+                "Ribosom",
+                "Nukleus",
+                "Kloroplas",
+                "Mitokondria"));
 
         score = 0;
         questionIndex = 0;

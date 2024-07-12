@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main); //Kita bekerja di Layout ini
 
-        //Exit Button
+    //Exit Button
         Button exitButton = findViewById(R.id.exitButton);
         exitButton.setOnClickListener(v -> {
             finishAffinity(); //Menutup semua aktivitas dan keluar dari aplikasi
@@ -36,3 +36,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+

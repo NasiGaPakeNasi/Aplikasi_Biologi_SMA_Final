@@ -5,7 +5,8 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        tools:ignore="ExtraText">
 
         <ImageView
             android:id="@+id/imageView"
@@ -24,6 +25,7 @@
             android:layout_height="wrap_content"
             android:textSize="35dp"
             android:text="Biologi SMA"
+            android:textColor="@color/warna_tulisan"
             android:fontFamily="@font/jetbrain"
             android:background="@drawable/border"
             android:layout_marginTop="250dp"
@@ -39,6 +41,8 @@
             android:onClick="Tombol_Mulai"
             android:fontFamily="@font/jetbrain"
             android:text="Mulai"
+            android:textColor="@color/warna_tulisan"
+            android:backgroundTint="@color/button_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -51,18 +55,22 @@
             android:onClick="Tombol_About"
             android:fontFamily="@font/jetbrain"
             android:text="About"
+            android:textColor="@color/warna_tulisan"
+            android:backgroundTint="@color/button_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/mulai" />
 
         <Button
             android:id="@+id/exitButton"
-            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exit"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/button_color"
             android:fontFamily="@font/jetbrain"
             android:onClick="exitButton"
+            android:text="Exit"
+            android:textColor="@color/warna_tulisan"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/about" />

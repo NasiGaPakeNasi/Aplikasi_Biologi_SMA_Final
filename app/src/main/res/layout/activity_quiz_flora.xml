@@ -2,13 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/warna_background">
+
 
     <TextView
         android:id="@+id/questionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Question will appear here"
+        android:textColor="@color/warna_tulisanquiz"
         android:textSize="18sp"
         android:layout_centerHorizontal="true"/>
 
@@ -22,6 +25,7 @@
         android:layout_centerHorizontal="true">
 
         <RadioButton
+            android:textColor="@color/warna_tulisanquiz"
             android:id="@+id/answer1RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,17 +35,20 @@
             android:id="@+id/answer2RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/warna_tulisanquiz"
             android:text="Answer 2"/>
 
         <RadioButton
             android:id="@+id/answer3RadioButton"
             android:layout_width="wrap_content"
+            android:textColor="@color/warna_tulisanquiz"
             android:layout_height="wrap_content"
             android:text="Answer 3"/>
 
         <RadioButton
             android:id="@+id/answer4RadioButton"
             android:layout_width="wrap_content"
+            android:textColor="@color/warna_tulisanquiz"
             android:layout_height="wrap_content"
             android:text="Answer 4"/>
     </RadioGroup>
@@ -51,6 +58,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
+        android:textColor="@color/warna_tulisan"
+        android:backgroundTint="@color/button_color"
         android:layout_below="@id/answersRadioGroup"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
@@ -60,6 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Score: 0"
+        android:textColor="@color/warna_tulisanquiz"
         android:layout_below="@id/submitAnswerButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
@@ -68,6 +78,7 @@
         android:id="@+id/highScoreTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/warna_tulisanquiz"
         android:text="High Score: 0"
         android:layout_below="@id/scoreTextView"
         android:layout_centerHorizontal="true"

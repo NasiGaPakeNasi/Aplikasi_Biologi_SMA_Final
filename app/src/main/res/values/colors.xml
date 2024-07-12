@@ -4,4 +4,18 @@
     <color name="white">#FFFFFFFF</color>
     <color name="hijau">#FFB65A</color>
     <color name="coklat">#9A6429</color>
+
+
+    <color name="button_color">#1A4314</color> <!-- Warna Tombol -->
+    <color name="warna_tulisan">#32CD30</color> <!-- Warna Tulisan -->
+    <color name="warna_background">#32CD30</color> <!-- Warna Background -->
+    <color name="warna_tulisanquiz">#1A4314</color> <!-- Warna Tulisan -->
+
+
+
+
 </resources>
+
+
+    <!-- https://www.canva.com/colors/color-palettes/secret-passageway/ Warna Hutan #32CD30 #2C5E1A #1A4314 #B2D2A4-->
+    <!-- https://www.canva.com/colors/color-palettes/foggy-forest/ Warna Hewan-->
