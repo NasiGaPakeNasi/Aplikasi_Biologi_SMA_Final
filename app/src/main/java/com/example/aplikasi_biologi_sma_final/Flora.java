@@ -23,7 +23,6 @@ public class Flora extends AppCompatActivity {
             return insets;
         });
     }
-
     //Ini adalah function untuk pindah activity
     public void Tombol_MulaiQuizFlora (View view) {
         Intent intent = new Intent(Flora.this, QuizFlora.class);

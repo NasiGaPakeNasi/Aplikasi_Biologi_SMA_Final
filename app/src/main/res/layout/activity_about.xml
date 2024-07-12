@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".About">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -23,9 +22,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/border"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/jetbrain"
         android:text="Tentang Kami"
-        android:textSize="35dp"
+        android:textSize="25dp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -36,13 +36,13 @@
         android:id="@+id/Tentang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
+        android:layout_marginTop="20dp"
         android:textColor="@color/black"
         android:background="@drawable/border"
         android:padding="20dp"
-        android:text="Kami adalah kelompok 6 Struktur Data \n\n Dosen : Pak Hermansyah \n terdiri dari (Ase, Bintang, Marchello Kristy, Rafael, Vico)
-        \n\n mempersembahkan aplikasi Biologi SMA sehingga dapat menambah ilmu pengetahuan dan wawasan tentang apa yang ada di sekitar kita di harapkan dapat mencerdaskan kehidupan bangsa"
+        android:fontFamily="@font/jetbrain"
+        android:text="Kami adalah kelompok 6 Struktur Data \n\nDosen : HERMANSYAH , S.Kom, M.Kom \nYang terdiri dari : \n(Ase, Bintang, Marchello Kristy, Rafael, Vico)
+        \n\nMempersembahkan aplikasi Biologi SMA sehingga dapat menambah ilmu pengetahuan dan wawasan tentang apa yang ada di sekitar kita di harapkan dapat mencerdaskan kehidupan bangsa"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -56,6 +56,7 @@
         android:layout_marginTop="20dp"
         android:onClick="Tombol_Kembali"
         android:text="Kembali"
+        android:fontFamily="@font/jetbrain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Tentang" />
@@ -66,10 +67,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:onClick="Tombol_Feedback"
+        android:fontFamily="@font/jetbrain"
         android:text="Feedback"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kembali" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

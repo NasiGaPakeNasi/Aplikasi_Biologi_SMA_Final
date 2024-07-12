@@ -1,77 +1,75 @@
-
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuizFlora">
+    android:padding="16dp">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="16dp">
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question will appear here"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"/>
 
-        <TextView
-            android:id="@+id/questionTextView"
+    <RadioGroup
+        android:id="@+id/answersRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionTextView"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/answer1RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Question"
-            android:textSize="18sp"
-            android:layout_marginBottom="16dp"
-            android:layout_centerHorizontal="true" />
+            android:text="Answer 1"/>
 
-        <RadioGroup
-            android:id="@+id/optionsRadioGroup"
+        <RadioButton
+            android:id="@+id/answer2RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/questionTextView"
-            android:layout_centerHorizontal="true">
+            android:text="Answer 2"/>
 
-            <RadioButton
-                android:id="@+id/option1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Option 1" />
-
-            <RadioButton
-                android:id="@+id/option2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Option 2" />
-
-            <RadioButton
-                android:id="@+id/option3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Option 3" />
-
-            <RadioButton
-                android:id="@+id/option4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Option 4" />
-        </RadioGroup>
-
-        <Button
-            android:id="@+id/submitButton"
+        <RadioButton
+            android:id="@+id/answer3RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Submit"
-            android:layout_below="@id/optionsRadioGroup"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp" />
+            android:text="Answer 3"/>
 
-        <TextView
-            android:id="@+id/scoreTextView"
+        <RadioButton
+            android:id="@+id/answer4RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Score: 0"
-            android:textSize="18sp"
-            android:layout_below="@id/submitButton"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp" />
-    </RelativeLayout>
+            android:text="Answer 4"/>
+    </RadioGroup>
 
+    <Button
+        android:id="@+id/submitAnswerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/answersRadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:layout_below="@id/submitAnswerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/highScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score: 0"
+        android:layout_below="@id/scoreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

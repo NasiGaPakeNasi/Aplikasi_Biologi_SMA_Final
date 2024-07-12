@@ -77,7 +77,7 @@
                 android:id="@+id/MulaiQuizFlora"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="Tombol_MulaiQuizFlora"
+                android:onClick="Tombol_MulaiQuizFauna"
                 android:text="Quiz"
                 android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="parent"

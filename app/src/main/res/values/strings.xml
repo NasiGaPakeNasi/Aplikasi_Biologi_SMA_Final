@@ -1,27 +1,263 @@
 <resources>
     <string name="app_name">Aplikasi_Biologi_SMA_Final</string>
-    <string name="Pendahuluan_Flora"> Tumbuhan sangat beragam, tersebar dari laut hingga puncak gunung, dan sangat penting bagi kehidupan di bumi. Mereka melakukan fotosintesis, memberikan energi bagi manusia dan hewan, serta membantu menjaga tanah dan iklim. Organisme heterotrof, seperti hewan dan beberapa bakteri, bergantung pada zat organik dari organisme lain karena tidak bisa mensintesis makanan sendiri.
-Tumbuhan, sebagai organisme autotrof, dapat membuat makanannya sendiri dengan bantuan energi dari luar, seperti sinar matahari. Sebagian besar organisme autotrof termasuk tumbuhan berbiji, alga, lumut, dan tumbuhan paku. Pembahasan tumbuhan di sini mencakup lumut (Briophyta), tumbuhan paku (Pteridophyta), dan tumbuhan berbiji (Spermatophyta).
-Tumbuhan membentuk zat organik dari zat anorganik melalui fotosintesis, bersifat multiseluler, dan memiliki dinding sel dari hemiselulosa. Tumbuhan dapat bereproduksi secara vegetatif maupun generatif. Tumbuhan berbiji adalah yang tertinggi tingkatannya dengan akar, batang, dan daun nyata, serta biji sebagai alat perkembangbiakan, disebut kormophyta berbiji. Tumbuhan paku juga termasuk kormophyta karena memiliki akar, batang, dan daun sejati, dengan spora sebagai alat reproduksi, disebut kormophyta berspora.</string>
-    <string name="Flora1">*Thallophyta*
+    <string name="Pendahuluan_Flora">Tumbuhan sangat beragam, tersebar dari laut hingga puncak gunung,
+        dan sangat penting bagi kehidupan di bumi. Mereka melakukan fotosintesis, memberikan energi bagi
+        manusia dan hewan, serta membantu menjaga tanah dan iklim. Organisme heterotrof, seperti hewan dan
+        beberapa bakteri, bergantung pada zat organik dari organisme lain karena tidak bisa mensintesis
+        makanan sendiri.\n\nTumbuhan, sebagai organisme autotrof, dapat membuat makanannya sendiri dengan
+        bantuan energi dari luar, seperti sinar matahari. Sebagian besar organisme autotrof termasuk
+        tumbuhan berbiji, alga, lumut, dan tumbuhan paku. Pembahasan tumbuhan di sini mencakup lumut
+        (Briophyta), tumbuhan paku (Pteridophyta), dan tumbuhan berbiji (Spermatophyta).\n\nTumbuhan
+        membentuk zat organik dari zat anorganik melalui fotosintesis, bersifat multiseluler, dan
+        memiliki dinding sel dari hemiselulosa. Tumbuhan dapat bereproduksi secara vegetatif maupun
+        generatif. Tumbuhan berbiji adalah yang tertinggi tingkatannya dengan akar, batang, dan daun
+        nyata, serta biji sebagai alat perkembangbiakan, disebut kormophyta berbiji. Tumbuhan paku juga
+        termasuk kormophyta karena memiliki akar, batang, dan daun sejati, dengan spora sebagai alat
+        reproduksi, disebut kormophyta berspora.
+</string>
+    <string name="Flora1">*Thallophyta*\n\n
 
 Thallophyta adalah kelompok tumbuhan yang belum memiliki akar, batang, dan daun yang nyata, seperti lumut (Bryophyta). Lumut memiliki rizoid yang berfungsi sebagai akar semu untuk menyerap air dan zat hara serta menambatkan tubuh lumut pada tempat hidupnya. Lumut tumbuh di tempat teduh dan lembab dan dikenal sebagai tumbuhan kosmopolit karena dapat hidup di berbagai lingkungan.
 
-Lumut bersifat autotrof karena mampu melakukan fotosintesis. Reproduksinya melibatkan pembentukan spora dalam sporogonium. Spora ini terbentuk melalui meiosis dan disebarkan oleh angin. Jika jatuh di tempat lembab, spora akan tumbuh menjadi protonema dan akhirnya menjadi lumut baru, mengalami metagenesis antara generasi gametofit dan sporofit. Lumut juga dapat berkembang biak secara aseksual melalui tunas atau fragmen talus.
+Lumut bersifat autotrof karena mampu melakukan fotosintesis. Reproduksinya melibatkan pembentukan spora dalam sporogonium. Spora ini terbentuk melalui meiosis dan disebarkan oleh angin. Jika jatuh di tempat lembab, spora akan tumbuh menjadi protonema dan akhirnya menjadi lumut baru, mengalami metagenesis antara generasi gametofit dan sporofit. Lumut juga dapat berkembang biak secara aseksual melalui tunas atau fragmen talus.\n
+\n\n
+*Kelas Lumut*\n\n
 
-*Kelas Lumut*
+1. *Hepaticae (Lumut Hati)*:\n\n
+   - *Ordo Anthocerotales (Lumut Tanduk)*: Memiliki talus berbentuk cakram, melekat dengan rizoid, sporangium berbentuk tanduk.\n
+    - Contoh: Anthoceros laevis, Anthoceros fusiformis.\n\n
 
-1. *Hepaticae (Lumut Hati)*:
-   - *Ordo Anthocerotales (Lumut Tanduk)*: Memiliki talus berbentuk cakram, melekat dengan rizoid, sporangium berbentuk tanduk.
-     - Contoh: Anthoceros laevis, Anthoceros fusiformis.
+   - *Ordo Marchantiales*: Talus berbentuk pita, bercabang menggarpu, memiliki rizoid dan sisik ventral. Reproduksi dengan arkegoniofor dan anteridiofor.\n
+     - Famili Marchantiaceae: Marchantia polymorpha, Marchantia geminata.\n
+     - Famili Ricciaceae: Riccia fluitans, Riccia nutans.\n\n
 
-   - *Ordo Marchantiales*: Talus berbentuk pita, bercabang menggarpu, memiliki rizoid dan sisik ventral. Reproduksi dengan arkegoniofor dan anteridiofor.
-     - Famili Marchantiaceae: Marchantia polymorpha, Marchantia geminata.
-     - Famili Ricciaceae: Riccia fluitans, Riccia nutans.
+   - *Ordo Jungermaniales*: Talus kecil, berbentuk pita, hidup epifit.\n
+     - Famili Acroynaceae: Plagiochila asplenoides.\n
+     - Famili Anacrogynaceae: Pnellia epiphylla, Blasia pusilla.\n\n
 
-   - *Ordo Jungermaniales*: Talus kecil, berbentuk pita, hidup epifit.
-     - Famili Acroynaceae: Plagiochila asplenoides.
-     - Famili Anacrogynaceae: Pnellia epiphylla, Blasia pusilla.
+Lumut hati memiliki talus pipih dorsiventral dan hidup di tempat lembab, sementara lumut tanduk memiliki sporangium berbentuk tanduk.\n
 
-Lumut hati memiliki talus pipih dorsiventral dan hidup di tempat lembab, sementara lumut tanduk memiliki sporangium berbentuk tanduk.</string>
+
+*A. Ordo Andreales*\n\n
+
+- Terdiri dari satu famili: Andreaceae, dengan satu marga Andreaea.\n
+- Protonema berbentuk seperti pita bercabang.\n
+- Kapsul spora diselubungi kaliptra berbentuk tutup kepala bayi, dan kolumela diselubungi jaringan sporogen.\n
+  - Contoh spesies: Andreaea petrophila, Andreaea rupestris.\n\n
+
+*B. Ordo Sphagnales*\n\n
+
+- Terdiri dari satu famili: Sphagnaceae, dengan satu marga Sphagnum.\n
+- Hidup di rawa-rawa membentuk rumpun atau bantalan. Lumut yang telah mati membentuk tanah gambut.\n
+- Protonema berbentuk seperti daun kecil dengan tepi bertoreh.\n
+  - Contoh spesies: Sphagnum fumbriatum (lumut gambut), Sphagnum squarrosum, Sphagnum acutifolium.\n\n
+
+*C. Ordo Bryales*\n\n
+
+- Sebagian besar berupa lumut daun.\n
+- Kapsul spora telah mengalami diferensiasi yang maju.\n
+- Sporangium bertangkai disebut seta, dengan bagian atas disebut apofisis. Kapsul spora memiliki tutup (operculum) yang terbuka dengan bantuan sel-sel cincin yang mengandung lendir. Di bawah operculum terdapat gigi-gigi peristom.\n
+  - Contoh famili: Polytritrichaceae.\n
+  - Contoh spesies: Polytrichum commune, Pogonatum cirrhatum, Sphagnum squarrosum\n\n
+
+        *Kormophyta*\n\n
+
+Kormophyta dibedakan menjadi tumbuhan paku dan tumbuhan berbiji.\n\n
+
+1. Tumbuhan Paku (Pteridophyta)\n\n
+
+A. Ciri-ciri Tumbuhan Paku\n
+
+Tumbuhan paku lebih maju dibandingkan lumut karena memiliki akar, batang, dan daun yang sebenarnya, serta pembuluh pengangkut. Tumbuhan paku memiliki beragam habitus, dari daun kecil sederhana hingga daun besar kompleks. Daunnya dibedakan menjadi mikrofil (kecil) dan makrofil (besar) serta daun fertil (sporofil) dan daun steril (tropofil). Habitatnya bervariasi, meliputi tanah, epifit, dan air. \n\n
+
+B. Reproduksi Tumbuhan Paku
+
+Tumbuhan paku mengalami pergiliran keturunan atau metagenesis. Gametofitnya, disebut protalium, adalah hasil perkecambahan spora haploid dan berukuran kecil. Protalium menghasilkan arkegonium (ovum) dan anteridium (spermatozoid) yang bertemu melalui media air, membentuk zigot yang berkembang menjadi sporofit (tumbuhan paku). Sporofit menghasilkan sporangium yang membelah secara meiosis membentuk spora haploid, dan siklus hidup berulang kembali.\n\n
+
+Tumbuhan paku menghasilkan spora, mengalami metagenesis, dengan generasi sporofit berumur panjang dan gametofit berupa protalium kecil yang berumur pendek. Tumbuhan paku dibedakan menjadi tiga kelompok berdasarkan spora yang dihasilkan:\n\n
+
+1. *Tumbuhan paku homospor*: Menghasilkan spora dengan bentuk dan ukuran sama, tanpa perbedaan jenis kelamin.\n
+   - Contoh: Lycopodium clavatum (paku kawat).\n\n
+
+2. *Tumbuhan paku heterospor*: Menghasilkan spora dengan bentuk, ukuran, dan jenis berbeda yaitu mikrospora (jantan) dan makrospora (betina).\n
+   - Contoh: Selaginella sp (paku rane), Marsilea sp (semanggi).\n\n
+
+3. *Tumbuhan paku peralihan*: Menghasilkan spora dengan bentuk dan ukuran sama, namun terdapat spora jantan dan betina.
+   - Contoh: Equisetum debile (paku ekor kuda).\n\n
+
+
+C. Klasifikasi Pteridophyta\n\n
+
+Pteridophyta terdiri dari empat kelas, yaitu Psilophytinae, Equisetinae, Lycopodinae, dan Filicinae.\n\n
+
+1) Kelas Psilophytinae (Paku Purba)
+
+Psilophytinae mencakup tumbuhan paku yang primitif, sebagian besar jenisnya telah punah. Mereka memiliki daun kecil (mikrofil) atau tidak berdaun sama sekali (paku telanjang), serta spora homospor. Kelas ini terbagi menjadi dua ordo:
+\n\n
+- *Ordo Psilophytales (Paku Telanjang)*: \n
+  - Tidak memiliki akar, hanya rizoid.\n
+  - Batang memiliki pembuluh.\n
+  - Contoh: Rhynia major, Zosterophyllum australianum.\n\n
+
+- *Ordo Psilotales*:\n
+        - Terna kecil dengan rizoid, bercabang menggarpu, mikrofil seperti sisik-sisik.\n
+  - Contoh: Psilotum nudum, Psilotum triquetrum.\n\n
+
+2) Kelas Equisetinae (Paku Ekor Kuda)\n\n
+
+Ciri khasnya adalah batang dengan percabangan berkarang dan nyata ruas-ruasnya. Daunnya kecil seperti rambut tersusun berkarang. Terdiri dari satu ordo, yaitu:
+\n\n
+- *Ordo Equisetales*:\n
+  - Hidup di darat atau rawa-rawa, memiliki rimpang, batang berpembuluh kolateral.\n
+  - Contoh: Equisetum debile, Equisetum arvense, Equisetum pretense.\n\n
+
+3) Kelas Lycopodinae (Paku Kawat)\n\n
+
+Batang bercabang, tumbuh tegak atau menjalar, dengan berkas pengangkut sederhana. Daun seperti jarum, beberapa jenis menunjukkan diferensiasi jaringan. Terdiri dari empat ordo:\n\n
+
+- *Ordo Lycopodiales*:\n
+  - Batang dengan berkas pengangkut sederhana, daun seperti jarum (mikrofil).\n
+  - Contoh: Lycopodium cernuum, Lycopodium clavatum.\n\n
+
+- *Ordo Selaginellales*:\n
+  - Batang tegak atau mendatar, tidak mengalami pertumbuhan sekunder, daun mikrofil dan makrofil.\n
+  - Contoh: Selaginella wildenowii, Selaginella caudate, Selaginella plana.\n\n
+
+- *Ordo Lepidodendrales*:\n
+  - Kebanyakan sudah punah, memiliki bentuk pohon dengan tinggi mencapai 30 meter.
+  - Contoh: Sigillaria elegans, Lepidodendron visculare.\n\n
+
+- *Ordo Isoetales*:\n
+  - Terna yang hidup di tanah atau air, batang seperti umbi, daun-daun dengan sporofil.\n
+  - Contoh: Isoetes lacustris, Isoetes duvieri.\n\n
+
+4) Kelas Filicinae\n\n
+
+Kelas ini meliputi tumbuhan paku dalam pengertian sehari-hari, menyukai habitat teduh dan lembab. Berdaun besar (makrofil) dan bertangkai dengan tulang daun yang jelas. Daun muda menggulung pada ujungnya, banyak ditanam sebagai tanaman hias atau obat. \n\n
+
+- *Subkelas Eusporangiatae*: \n
+  - Sporangium besar dan dinding tebal.\n
+  - Contoh: Ophioglossum.\n\n
+
+- *Subkelas Leptosporangiatae*: \n
+  - Sporangium kecil dengan dinding tipis.\n
+  - Contoh: Pteris, Adiantum.\n\n
+
+- *Subkelas Hydropterides*: \n
+  - Paku air dengan sporangium khusus.\n
+  - Contoh: Marsilea, Salvinia.\n\n
+
+Habitat Tumbuhan Paku\n\n
+
+Dilihat dari lingkungan hidupnya, tumbuhan paku dikelompokkan ke dalam tiga golongan:\n
+
+- *Paku Tanah*: Tumbuh di tanah lembab.\n
+- *Paku Air*: Tumbuh di lingkungan berair.\n
+- *Paku Epifit*: Tumbuh menempel pada tanaman lain.\n\n
+
+a) Subkelas Eusporangiatae\n\n
+
+Subkelas Eusporangiatae kebanyakan terdiri dari terna dengan protalium yang bisa berada di bawah tanah tanpa warna atau di atas tanah dengan warna hijau. Protalium sering ditumbuhi cendawan endofitik. Sporangium pada kelompok ini berdinding tebal dan kuat dengan spora yang sama besar.
+\n\n
+Subkelas Eusporangiatae terdiri dari dua ordo:\n\n
+
+- *Ordo Ophioglossales*:\n
+  - Tumbuhan paku dengan batang pendek dalam tanah.\n
+  - Daun asimilasi dan daun sporofil terlihat jelas, berbentuk malai atau bulir.\n
+  - Sporangium homospor, bulat, tanpa annulus, dan berdinding kuat.\n
+  - Contoh: Ophioglossum vulgatum, Botrychium lunaria, Ophioglossum reticulatum.\n\n
+
+- *Ordo Marattiales*:\n
+  - Paku berdaun besar, menyirip ganda beberapa kali.\n
+  - Sporangium berdinding tebal, tanpa annulus, terdapat di sisi bawah daun dan umumnya homospor.\n
+  - Sporangium berlekatan membentuk sinangium.\n
+  - Contoh: Christensenia aesculifolia, Marattia fraxinea, Angiopteris evecta (paku kedondong).\n
+\n\n
+b) Subkelas Leptosporangiatae\n\n
+
+Subkelas Leptosporangiatae mencakup sekitar 90% dari total genus dalam kelas Filicinae, tersebar di seluruh dunia, dengan jumlah terbanyak di daerah tropis. Tumbuhan paku ini memiliki berbagai ukuran, dari beberapa cm hingga paku pohon. Batang paku pohon tanpa kambium, kekuatannya berasal dari rangkaian berkas pengangkut yang tersusun konsentris. Sebagian besar berupa terna dengan rimpang mendatar atau sedikit tegak. Daun muda menggulung pada ujungnya, pertumbuhan apikal hampir tidak terbatas, dan anatomi daun menyerupai Spermatophyta.
+\n\n
+Ciri-ciri penting:\n\n
+- Daun muda menggulung.\n
+- Tulang daun bercabang-cabang dengan berbagai pola.\n
+- Sporangium terdapat di sisi bawah daun, terkumpul menjadi sorus.\n
+- Sorus ditutupi oleh selaput (indusium) sebelum masak.\n
+- Semua paku Leptosporangiatae bersifat homospor.\n
+- Protalium berukuran kecil dan berumur pendek.\n\n
+
+Subkelas Leptosporangiatae terdiri dari beberapa famili:\n\n
+
+- *Osmundaceae*:\n
+  - Contoh: Osmunda javanica.\n\n
+
+- *Schizaceae*:\n
+  - Contoh: Schizaea digitata, Schizaea dichotoma, Lygodium circinnatum.\n\n
+
+- *Gleicheniaceae*:\n
+  - Contoh: Gleichenia linearis, Gleichenia laevigata (paku andam, paku resam).\n\n
+
+- *Matoniaceae*:\n
+  - Contoh: Matonia pectinata.\n\n
+
+- *Hymenophyllaceae*:\n
+  - Contoh: Hymenophyllum australe.\n\n
+
+- *Cyatheaceae*:\n
+  - Contoh: Cyathea javanica, Alsophila glauca (paku tiang).\n\n
+
+B. Angiospermae\n\n
+
+Angiospermae, atau tumbuhan berbiji tertutup, memiliki ciri utama yaitu bakal bijinya diselubungi oleh bakal buah. Bakal buah ini berasal dari daun-daun buah (karpela) yang membentuk buah dengan biji di dalamnya. Setelah serbuk sari jatuh di kepala putik, terbentuklah buluh serbuk sari yang mengantarkan sel kelamin jantan untuk membuahi sel telur, membentuk zigot. Zigot ini kemudian berkembang menjadi biji yang mengandung calon individu baru beserta endosperm untuk nutrisi.
+\n\n
+Sebagian besar tumbuhan Angiospermae memiliki batang berkayu, meskipun ada yang berupa herba dengan batang basah. Tumbuhan ini menunjukkan variasi dalam bentuk batang, pertulangan daun, dan struktur bunga. Angiospermae dibagi menjadi dua kelas utama yaitu Monocotyledonae (monokotil) dan Dicotyledonae (dikotil).
+\n\n
+1) Kelas Monocotyledonae (Monokotil)\n\n
+
+Monokotil memiliki ciri-ciri sebagai berikut:\n\n
+- Akar serabut.\n
+- Batang beruas-ruas, tidak berkambium.\n
+- Pertulangan daun sejajar atau melengkung.\n
+- Bagian-bagian bunga berjumlah tiga atau kelipatannya.\n
+- Memiliki satu kotiledon (keping lembaga).\n\n
+
+Contoh beberapa famili dalam kelas Monokotil:\n\n
+
+- *Liliaceae: *Lilium longiflorum (lili gereja), Gloriosa superba (kembang telang).\n\n
+- *Amaryllidaceae: *Agave sisalana (sisal), Agave cantala (kantala).\n\n
+- *Poaceae: *Oryza sativa (padi), Zea mays (jagung), Andropogon sorghum (cantel), Panicum miliaceum (jewawut).\n\n
+- *Zingiberaceae: *Zingiber officinale (jahe), Curcuma domestica (kunyit), Alpinia galanga (laos), Kaempferia galanga (kencur).\n\n
+- *Musaceae: *Musa paradisiaca (pisang), Musa textilis (pisang manila).\n\n
+- *Orchidaceae: *Phalaenopsis amabilis (anggrek bulan), Dendrobium phalaenopsis.\n\n
+- *Arecaceae: *Cocos nucifera (kelapa), Arenga pinnata (aren), Areca catechu (pinang), Elaeis guineensis (kelapa sawit).\n\n
+- *Araceae: *Colocasia esculenta (talas), Xanthosoma violaceum (bentul), Alocasia macrorrhiza (sente).\n\n
+
+2) Kelas Dicotyledonae (Dikotil)\n\n
+
+Dikotil memiliki ciri-ciri sebagai berikut:\n\n
+- Akar tunggang.\n
+- Batang bercabang dan beruas-ruas, berkambium.\n
+- Berkas pengangkut teratur, tipe kolateral terbuka.\n
+- Pertulangan daun menyirip atau menjari.\n
+- Bagian-bagian bunga berjumlah 4, 5 atau kelipatannya.\n
+- Memiliki dua kotiledon (keping lembaga).\n\n
+
+Contoh beberapa famili dalam kelas Dikotil:\n\n
+
+- *Euphorbiaceae: *Manihot utilissima (singkong), Hevea brasiliensis (karet).\n\n
+- *Moraceae: *Ficus benjamina (beringin), Artocarpus integra (nangka), Artocarpus communis (keluwih).\n\n
+- *Fabaceae (Papilionaceae): *Vigna sinensis (kacang panjang), Phaseolus radiatus (kacang hijau), Arachis hypogaea (kacang tanah), Crotalaria sp. (orok-orok).\n\n
+- *Caesalpiniaceae: *Caesalpinia pulcherrima (kembang merak), Tamarindus indica (asam).\n\n
+- *Mimosaceae: *Mimosa pudica (putri malu), Leucaena leucocephala (petai cina), Parkia speciosa (petai).\n\n
+- *Malvaceae: *Hibiscus tiliaceus (waru), Hibiscus rosa-sinensis (kembang sepatu), Gossypium sp. (kapas).\n\n
+- *Bombacaceae: *Durio zibethinus (durian), Ceiba pentandra (randu).\n\n
+- *Rutaceae: *Citrus nobilis (jeruk keprok), Citrus aurantifolia (jeruk nipis), Citrus maxima (jeruk bali).\n\n
+- *Myrtaceae: *Syzygium aromaticum (cengkeh), Melaleuca leucadendra (kayu putih), Psidium guajava (jambu biji).\n\n
+- *Verbenaceae: *Tectona grandis (jati), Lantana camara (lantana).\n\n
+- *Lamiaceae (Labiatae): *Coleus tuberosus (kentang hitam).\n\n
+- *Convolvulaceae: *Ipomoea batatas (ubi jalar), Ipomoea aquatica (kangkung).\n\n
+- *Apocynaceae: *Plumeria acuminata (kamboja), Allamanda cathartica (alamanda).\n\n
+- *Rubiaceae: *Morinda citrifolia (mengkudu), Coffea arabica (kopi), Cinchona pubescens (kina)\n\n
+
+
+</string>
 </resources>
