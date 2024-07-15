@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Aplikasi_Biologi_SMA_Final</string>
+    <string name="question_image">Gambar Soal</string>
+    <!-- Tambahkan string lainnya yang dibutuhkan -->
+    <string name="app_name">BIOMA (Biologi SMA) 2024</string>
     <string name="Pendahuluan_Flora">Tumbuhan sangat beragam, tersebar dari laut hingga puncak gunung,
         dan sangat penting bagi kehidupan di bumi. Mereka melakukan fotosintesis, memberikan energi bagi
         manusia dan hewan, serta membantu menjaga tanah dan iklim. Organisme heterotrof, seperti hewan dan
@@ -15,9 +17,7 @@
         termasuk kormophyta karena memiliki akar, batang, dan daun sejati, dengan spora sebagai alat
         reproduksi, disebut kormophyta berspora.
 </string>
-    <string name="Flora1">*Thallophyta*\n\n
-
-Thallophyta adalah kelompok tumbuhan yang belum memiliki akar, batang, dan daun yang nyata, seperti lumut (Bryophyta). Lumut memiliki rizoid yang berfungsi sebagai akar semu untuk menyerap air dan zat hara serta menambatkan tubuh lumut pada tempat hidupnya. Lumut tumbuh di tempat teduh dan lembab dan dikenal sebagai tumbuhan kosmopolit karena dapat hidup di berbagai lingkungan.
+    <string name="Flora1">*Thallophyta*\n\nThallophyta adalah kelompok tumbuhan yang belum memiliki akar, batang, dan daun yang nyata, seperti lumut (Bryophyta). Lumut memiliki rizoid yang berfungsi sebagai akar semu untuk menyerap air dan zat hara serta menambatkan tubuh lumut pada tempat hidupnya. Lumut tumbuh di tempat teduh dan lembab dan dikenal sebagai tumbuhan kosmopolit karena dapat hidup di berbagai lingkungan.
 
 Lumut bersifat autotrof karena mampu melakukan fotosintesis. Reproduksinya melibatkan pembentukan spora dalam sporogonium. Spora ini terbentuk melalui meiosis dan disebarkan oleh angin. Jika jatuh di tempat lembab, spora akan tumbuh menjadi protonema dan akhirnya menjadi lumut baru, mengalami metagenesis antara generasi gametofit dan sporofit. Lumut juga dapat berkembang biak secara aseksual melalui tunas atau fragmen talus.\n
 \n\n
@@ -259,7 +259,7 @@ Contoh beberapa famili dalam kelas Dikotil:\n\n
 - *Rubiaceae: *Morinda citrifolia (mengkudu), Coffea arabica (kopi), Cinchona pubescens (kina)\n\n
 </string>
 
-<string name="Fauna">
+    <string name="a">
     Pengertian Fauna\n\nFauna adalah istilah yang digunakan untuk merujuk pada semua jenis hewan yang hidup di suatu wilayah atau pada periode waktu tertentu. Hewan-hewan ini dapat diklasifikasikan berdasarkan berbagai faktor, seperti habitat, jenis makanan, dan ciri-ciri fisik.\n\nKeanekaragaman Fauna\n\nBumi memiliki keanekaragaman fauna yang luar biasa, dengan jutaan spesies hewan yang berbeda hidup di seluruh penjuru planet. Keanekaragaman ini dapat dilihat dari berbagai macam bentuk, ukuran, warna, dan perilaku hewan.\n
 
 Faktor-faktor yang mempengaruhi keanekaragaman fauna di suatu wilayah antara lain:\n\n
@@ -279,4 +279,24 @@ Fauna memiliki banyak manfaat bagi manusia, antara lain:\n\n
     Menjaga keseimbangan alam: Hewan merupakan bagian penting dari ekosistem dan berperan dalam menjaga keseimbangan alam.\n\n
 
 </string>
+
+
+    <string name="Apaitubiologi">
+        Biologi adalah cabang ilmu pengetahuan alam yang mempelajari kehidupan dan organisme hidup, termasuk struktur, fungsi, pertumbuhan, evolusi, distribusi, dan taksonominya. Ilmu biologi mencakup berbagai bidang studi yang lebih spesifik, seperti:\n\n
+
+1. **Botani**: Studi tentang tumbuhan.\n\n
+2. **Zoologi**: Studi tentang hewan.\n\n
+3. **Mikrobiologi**: Studi tentang mikroorganisme.\n\n
+4. **Genetika**: Studi tentang gen dan pewarisan sifat.\n\n
+5. **Ekologi**: Studi tentang hubungan antara organisme dan lingkungan mereka.\n\n
+6. **Biologi Molekuler**: Studi tentang proses biologis pada tingkat molekuler.\n\nBiologi sangat penting untuk memahami kehidupan dan proses alamiah, dan memiliki aplikasi yang luas dalam berbagai bidang, termasuk kedokteran, pertanian, lingkungan, dan bioteknologi.
+
+</string>
+
+    <string name="AboutUs">
+        Kami adalah kelompok 6 Struktur Data \n\nDosen : HERMANSYAH , S.Kom, M.Kom \nYang terdiri dari : \n(Ase, Bintang, Marchello Kristy, Rafael, Vico)
+        \n\nMempersembahkan aplikasi Biologi SMA sehingga dapat menambah ilmu pengetahuan dan wawasan tentang apa yang ada di sekitar kita di harapkan dapat mencerdaskan kehidupan bangsa
+    </string>
+
+
 </resources>

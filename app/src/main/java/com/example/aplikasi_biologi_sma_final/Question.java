@@ -6,14 +6,24 @@ public class Question {
     private String option3;
     private String option4;
     private String correctAnswer;
+    private int imageResId;
 
-    public Question(String question, String option1, String option2, String option3, String option4, String correctAnswer) {
+    public Question(String question, String option1, String option2, String option3, String option4, String correctAnswer, int ekolokasi) {
         this.question = question;
         this.option1 = option1;
         this.option2 = option2;
         this.option3 = option3;
         this.option4 = option4;
         this.correctAnswer = correctAnswer;
+        this.imageResId = imageResId;
+    }
+
+    public int getImageResId() {
+        return imageResId;
+    }
+
+    public void setImageResId(int imageResId) {
+        this.imageResId = imageResId;
     }
 
     public String getQuestion() {

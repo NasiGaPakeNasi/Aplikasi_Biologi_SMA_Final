@@ -3,7 +3,6 @@ package com.example.aplikasi_biologi_sma_final;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;

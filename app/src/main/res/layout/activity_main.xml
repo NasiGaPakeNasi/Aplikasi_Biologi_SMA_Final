@@ -1,19 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/main"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/movingBackground"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"
-        tools:ignore="ExtraText">
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_biologi" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/background_biologi"
+            android:src="@drawable/backgroundpohon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,12 +63,26 @@
             android:layout_marginTop="20dp"
             android:onClick="Tombol_About"
             android:fontFamily="@font/jetbrain"
-            android:text="About"
+            android:text="Tentang Aplikasi"
             android:textColor="@color/warna_tulisan"
             android:backgroundTint="@color/button_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/mulai" />
+
+        <Button
+            android:id="@+id/leaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="Tombol_Papan"
+            android:fontFamily="@font/jetbrain"
+            android:text="Papan Atas"
+            android:textColor="@color/warna_tulisan"
+            android:backgroundTint="@color/button_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about" />
 
         <Button
             android:id="@+id/exitButton"
@@ -69,10 +92,10 @@
             android:backgroundTint="@color/button_color"
             android:fontFamily="@font/jetbrain"
             android:onClick="exitButton"
-            android:text="Exit"
+            android:text="Keluar"
             android:textColor="@color/warna_tulisan"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/about" />
-
+            app:layout_constraintTop_toBottomOf="@id/leaderboard" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

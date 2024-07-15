@@ -9,7 +9,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Fauna extends AppCompatActivity {
+public class fauna_rev extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class Fauna extends AppCompatActivity {
     }
     //Ini adalah function untuk pindah activity
     public void Tombol_MulaiQuizFauna (View view) {
-        Intent intent = new Intent(Fauna.this, QuizFauna.class);
+        Intent intent = new Intent(fauna_rev.this, QuizFauna.class);
         startActivity(intent);
     }
 }

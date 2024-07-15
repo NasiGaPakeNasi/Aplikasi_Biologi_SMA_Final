@@ -5,9 +5,7 @@ import android.view.View;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-
 public class Materi extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +20,7 @@ public class Materi extends AppCompatActivity {
     }
 
     //Ini adalah function untuk pindah activity
-    public void Tombol_Zoologi (View view) {
+    public void Tombol_Fauna (View view) {
         Intent intent = new Intent(Materi.this, Fauna.class);
         startActivity(intent);
     }

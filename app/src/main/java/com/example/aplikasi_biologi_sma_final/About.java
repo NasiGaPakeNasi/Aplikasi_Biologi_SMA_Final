@@ -26,7 +26,7 @@ public class About extends AppCompatActivity {
         //function untuk tombol feedback menjadi link
         Button linkButton = findViewById(R.id.feedback);
         linkButton.setOnClickListener(v -> {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.example.com"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://forms.gle/VDUoPvvaCTUzA5Cr8"));
             startActivity(browserIntent);
         });
     }

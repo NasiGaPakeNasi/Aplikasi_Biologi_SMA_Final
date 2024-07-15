@@ -58,28 +58,28 @@ public class QuizFlora extends AppCompatActivity {
                 "Mengangkut air",
                 "Menyerap karbon dioksida",
                 "Menghasilkan oksigen",
-                "Menyerap cahaya matahari"));
+                "Menyerap cahaya matahari", R.drawable.ekolokasi));
 
         questionsList.add(new Question("Apa yang dimaksud dengan mitosis?",
                 "Pembelahan sel somatik",
                 "Pembelahan sel gamet",
                 "Pembelahan inti sel",
                 "Pembentukan RNA",
-                "Pembelahan sel somatik"));
+                "Pembelahan sel somatik", R.drawable.ekolokasi));
 
         questionsList.add(new Question("Apa yang dimaksud dengan ATP?",
                 "Molekul penyimpan energi",
                 "Asam nukleat",
                 "Protein struktural",
                 "Enzim pencernaan",
-                "Molekul penyimpan energi"));
+                "Molekul penyimpan energi", R.drawable.ekolokasi));
 
         questionsList.add(new Question("Dimana proses respirasi sel terjadi?",
                 "Mitokondria",
                 "Ribosom",
                 "Nukleus",
                 "Kloroplas",
-                "Mitokondria"));
+                "Mitokondria", R.drawable.ekolokasi));
 
         score = 0;
         questionIndex = 0;
