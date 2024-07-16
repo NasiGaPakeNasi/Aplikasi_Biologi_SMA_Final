@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Aplikasi_Biologi_SMA_Final"
         tools:targetApi="31">
         <activity
+            android:name=".QuizEkosistem"
+            android:exported="false" />
+        <activity
+            android:name=".quiz_ekosistem"
+            android:exported="false" />
+        <activity
+            android:name=".ekosistem"
+            android:exported="false" />
+        <activity
+            android:name=".Ekosistem"
+            android:exported="false" />
+        <activity
             android:name=".fauna_rev"
             android:exported="false" />
         <activity

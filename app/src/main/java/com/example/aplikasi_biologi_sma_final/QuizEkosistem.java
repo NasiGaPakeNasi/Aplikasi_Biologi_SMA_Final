@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class QuizFlora extends AppCompatActivity {
+public class QuizEkosistem extends AppCompatActivity {
 
     private TextView questionTextView;
     private ImageView questionImageView;
@@ -37,7 +37,7 @@ public class QuizFlora extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_flora);
+        setContentView(R.layout.activity_quiz_fauna);
 
         questionTextView = findViewById(R.id.questionTextView);
         questionImageView = findViewById(R.id.questionImageView);
@@ -55,7 +55,7 @@ public class QuizFlora extends AppCompatActivity {
 
         submitAnswerButton.setOnClickListener(v -> {
             if (answersRadioGroup.getCheckedRadioButtonId() == -1) {
-                Toast.makeText(QuizFlora.this, "Pilih jawaban terlebih dahulu", Toast.LENGTH_SHORT).show();
+                Toast.makeText(QuizEkosistem.this, "Pilih jawaban terlebih dahulu", Toast.LENGTH_SHORT).show();
             } else {
                 checkAnswer();
                 loadNewQuestion();
@@ -87,34 +87,40 @@ public class QuizFlora extends AppCompatActivity {
 
     private void initializeQuiz() {
         questionsList = new ArrayList<>();
+        questionsList.add(new Question("Apa yang dimaksud dengan ekosistem?",
+                "Suatu sistem ekologi yang mencakup interaksi antara makhluk hidup dan lingkungan fisik",
+                "Suatu tempat yang hanya dihuni oleh tumbuhan",
+                "Suatu lingkungan yang tidak memiliki kehidupan",
+                "Suatu kumpulan hewan dalam kebun binatang",
+                "Suatu sistem ekologi yang mencakup interaksi antara makhluk hidup dan lingkungan fisik.", R.drawable.ekolokasi));
 
-        questionsList.add(new Question("Apa fungsi klorofil dalam fotosintesis?",
-                "Menyerap cahaya matahari",
-                "Mengangkut air",
-                "Menyerap karbon dioksida",
-                "Menghasilkan oksigen",
-                "Menyerap cahaya matahari", R.drawable.ekolokasi));
+        questionsList.add(new Question("Contoh komponen biotik adalah",
+                "Air",
+                "Tumbuhan",
+                "Batu",
+                "Cahaya matahari",
+                "Tumbuhan", R.drawable.hibernasi));
 
-        questionsList.add(new Question("Apa yang dimaksud dengan mitosis?",
-                "Pembelahan sel somatik",
-                "Pembelahan sel gamet",
-                "Pembelahan inti sel",
-                "Pembentukan RNA",
-                "Pembelahan sel somatik", R.drawable.ekolokasi));
+        questionsList.add(new Question("Produsen dalam ekosistem biasanya adalah",
+                "Herbivora",
+                "Karnivora",
+                "Pengurai",
+                "Tumbuhan hijau",
+                "Tumbuhan hijau", R.drawable.platypus));
 
-        questionsList.add(new Question("Apa yang dimaksud dengan ATP?",
-                "Molekul penyimpan energi",
-                "Asam nukleat",
-                "Protein struktural",
-                "Enzim pencernaan",
-                "Molekul penyimpan energi", R.drawable.ekolokasi));
+        questionsList.add(new Question("Apa yang dimaksud dengan konsumen primer?",
+                "Organisme yang memakan produsen",
+                "Organisme yang memakan karnivora",
+                "Organisme yang menguraikan materi organik",
+                "Organisme yang menghasilkan makanan sendiri",
+                "Organisme yang memakan produsen", R.drawable.mutualisme));
 
-        questionsList.add(new Question("Dimana proses respirasi sel terjadi?",
-                "Mitokondria",
-                "Ribosom",
-                "Nukleus",
-                "Kloroplas",
-                "Mitokondria", R.drawable.ekolokasi));
+        questionsList.add(new Question("Ekosistem darat tidak termasuk:",
+                "Hutan hujan tropis",
+                "Padang rumput",
+                "Lautan",
+                "Gurun",
+                "Lautan", R.drawable.mutualisme));
 
         score = 0;
         questionIndex = 0;
@@ -223,7 +229,7 @@ public class QuizFlora extends AppCompatActivity {
     }
 
     private void returnToMainActivity() {
-        Intent intent = new Intent(QuizFlora.this, MainActivity.class);
+        Intent intent = new Intent(QuizEkosistem.this, MainActivity.class);
         startActivity(intent);
         finish();
     }

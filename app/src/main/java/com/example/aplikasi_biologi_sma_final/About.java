@@ -29,6 +29,8 @@ public class About extends AppCompatActivity {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://forms.gle/VDUoPvvaCTUzA5Cr8"));
             startActivity(browserIntent);
         });
+
+
     }
 
     //Ini adalah function untuk pindah activity
@@ -36,5 +38,7 @@ public class About extends AppCompatActivity {
         Intent intent = new Intent(About.this, MainActivity.class);
         startActivity(intent);
     }
+
+
 
 }

@@ -14,7 +14,7 @@ public class Materi extends AppCompatActivity {
     }
 
     //Ini adalah function untuk pindah activity
-    public void Tombol_Tumbuhan (View view) {
+    public void Tombol_Flora (View view) {
         Intent intent = new Intent(Materi.this, Flora.class);
         startActivity(intent);
     }
@@ -22,6 +22,12 @@ public class Materi extends AppCompatActivity {
     //Ini adalah function untuk pindah activity
     public void Tombol_Fauna (View view) {
         Intent intent = new Intent(Materi.this, Fauna.class);
+        startActivity(intent);
+    }
+
+    //Ini adalah function untuk pindah activity
+    public void Tombol_Ekosistem (View view) {
+        Intent intent = new Intent(Materi.this, ekosistem.class);
         startActivity(intent);
     }
 

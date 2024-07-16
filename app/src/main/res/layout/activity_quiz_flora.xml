@@ -3,63 +3,75 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@color/warna_background">
-
+    android:background="@color/warna_tulisan">
 
     <TextView
         android:id="@+id/questionTextView"
         android:layout_width="wrap_content"
-        android:fontFamily="@font/jetbrain"
         android:layout_height="wrap_content"
-        android:text="Question will appear here"
+        android:fontFamily="@font/jetbrain"
+        android:text="Pertanyaan muncul di sini"
         android:textColor="@color/warna_tulisanquiz"
         android:textSize="18sp"
         android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/questionImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/question_image"/>
 
     <RadioGroup
         android:id="@+id/answersRadioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/questionTextView"
+        android:layout_below="@id/questionImageView"
         android:layout_marginTop="20dp"
         android:orientation="vertical"
         android:layout_centerHorizontal="true">
 
-        <RadioButton    android:fontFamily="@font/jetbrain"
+        <RadioButton
             android:textColor="@color/warna_tulisanquiz"
             android:id="@+id/answer1RadioButton"
             android:layout_width="wrap_content"
+            android:fontFamily="@font/jetbrain"
             android:layout_height="wrap_content"
-            android:text="Answer 1"/>
+            android:text="Jawaban 1"/>
 
-        <RadioButton    android:fontFamily="@font/jetbrain"
+        <RadioButton
             android:id="@+id/answer2RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/jetbrain"
             android:textColor="@color/warna_tulisanquiz"
-            android:text="Answer 2"/>
+            android:text="Jawaban 2"/>
 
-        <RadioButton    android:fontFamily="@font/jetbrain"
+        <RadioButton
             android:id="@+id/answer3RadioButton"
             android:layout_width="wrap_content"
             android:textColor="@color/warna_tulisanquiz"
+            android:fontFamily="@font/jetbrain"
             android:layout_height="wrap_content"
-            android:text="Answer 3"/>
+            android:text="Jawaban 3"/>
 
-        <RadioButton    android:fontFamily="@font/jetbrain"
+        <RadioButton
             android:id="@+id/answer4RadioButton"
             android:layout_width="wrap_content"
+            android:fontFamily="@font/jetbrain"
             android:textColor="@color/warna_tulisanquiz"
             android:layout_height="wrap_content"
-            android:text="Answer 4"/>
+            android:text="Jawaban 4"/>
     </RadioGroup>
 
     <Button
         android:id="@+id/submitAnswerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Jawab"
         android:fontFamily="@font/jetbrain"
-        android:text="Submit"
         android:textColor="@color/warna_tulisan"
         android:backgroundTint="@color/button_color"
         android:layout_below="@id/answersRadioGroup"
@@ -70,21 +82,28 @@
         android:id="@+id/scoreTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Score: 0"
+        android:text="Skor: 0"
         android:fontFamily="@font/jetbrain"
         android:textColor="@color/warna_tulisanquiz"
         android:layout_below="@id/submitAnswerButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
-    <TextView
-        android:id="@+id/highScoreTextView"
+    <ImageView
+        android:id="@+id/celebrationImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/warna_tulisanquiz"
-        android:fontFamily="@font/jetbrain"
-        android:text="High Score: 0"
-        android:layout_below="@id/scoreTextView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:src="@drawable/celebration_image" />
+
+    <ImageView
+        android:id="@+id/encouragementImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:src="@drawable/encouragement_image" />
+
+
 </RelativeLayout>

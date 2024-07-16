@@ -1,8 +1,9 @@
 <resources>
     <string name="question_image">Gambar Soal</string>
-    <!-- Tambahkan string lainnya yang dibutuhkan -->
     <string name="app_name">BIOMA (Biologi SMA) 2024</string>
-    <string name="Pendahuluan_Flora">Tumbuhan sangat beragam, tersebar dari laut hingga puncak gunung,
+
+    <string name="Pendahuluan_Flora">
+        Tumbuhan sangat beragam, tersebar dari laut hingga puncak gunung,
         dan sangat penting bagi kehidupan di bumi. Mereka melakukan fotosintesis, memberikan energi bagi
         manusia dan hewan, serta membantu menjaga tanah dan iklim. Organisme heterotrof, seperti hewan dan
         beberapa bakteri, bergantung pada zat organik dari organisme lain karena tidak bisa mensintesis
@@ -16,26 +17,30 @@
         nyata, serta biji sebagai alat perkembangbiakan, disebut kormophyta berbiji. Tumbuhan paku juga
         termasuk kormophyta karena memiliki akar, batang, dan daun sejati, dengan spora sebagai alat
         reproduksi, disebut kormophyta berspora.
-</string>
-    <string name="Flora1">*Thallophyta*\n\nThallophyta adalah kelompok tumbuhan yang belum memiliki akar, batang, dan daun yang nyata, seperti lumut (Bryophyta). Lumut memiliki rizoid yang berfungsi sebagai akar semu untuk menyerap air dan zat hara serta menambatkan tubuh lumut pada tempat hidupnya. Lumut tumbuh di tempat teduh dan lembab dan dikenal sebagai tumbuhan kosmopolit karena dapat hidup di berbagai lingkungan.
+    </string>
 
-Lumut bersifat autotrof karena mampu melakukan fotosintesis. Reproduksinya melibatkan pembentukan spora dalam sporogonium. Spora ini terbentuk melalui meiosis dan disebarkan oleh angin. Jika jatuh di tempat lembab, spora akan tumbuh menjadi protonema dan akhirnya menjadi lumut baru, mengalami metagenesis antara generasi gametofit dan sporofit. Lumut juga dapat berkembang biak secara aseksual melalui tunas atau fragmen talus.\n
-\n\n
+    <string name="Flora1">
+    *Thallophyta*\n\nThallophyta adalah kelompok tumbuhan yang belum memiliki akar, batang, dan daun yang nyata, seperti lumut (Bryophyta). Lumut memiliki rizoid yang berfungsi sebagai akar semu untuk menyerap air dan zat hara serta menambatkan tubuh lumut pada tempat hidupnya. Lumut tumbuh di tempat teduh dan lembab dan dikenal sebagai tumbuhan kosmopolit karena dapat hidup di berbagai lingkungan.
+    \n\nLumut bersifat autotrof karena mampu melakukan fotosintesis. Reproduksinya melibatkan pembentukan spora dalam sporogonium. Spora ini terbentuk melalui meiosis dan disebarkan oleh angin. Jika jatuh di tempat lembab, spora akan tumbuh menjadi protonema dan akhirnya menjadi lumut baru, mengalami metagenesis antara generasi gametofit dan sporofit. Lumut juga dapat berkembang biak secara aseksual melalui tunas atau fragmen talus.
+    </string>
+
+    <string name = "Flora2">
 *Kelas Lumut*\n\n
 
 1. *Hepaticae (Lumut Hati)*:\n\n
-   - *Ordo Anthocerotales (Lumut Tanduk)*: Memiliki talus berbentuk cakram, melekat dengan rizoid, sporangium berbentuk tanduk.\n
+   - *Ordo Anthocerotales (Lumut Tanduk)*: Memiliki talus berbentuk cakram, melekat dengan rizoid, sporangium berbentuk tanduk.\n\n
     - Contoh: Anthoceros laevis, Anthoceros fusiformis.\n\n
 
-   - *Ordo Marchantiales*: Talus berbentuk pita, bercabang menggarpu, memiliki rizoid dan sisik ventral. Reproduksi dengan arkegoniofor dan anteridiofor.\n
-     - Famili Marchantiaceae: Marchantia polymorpha, Marchantia geminata.\n
+   - *Ordo Marchantiales*: Talus berbentuk pita, bercabang menggarpu, memiliki rizoid dan sisik ventral. Reproduksi dengan arkegoniofor dan anteridiofor.\n\n
+     - Famili Marchantiaceae: Marchantia polymorpha, Marchantia geminata.\n\n
      - Famili Ricciaceae: Riccia fluitans, Riccia nutans.\n\n
 
-   - *Ordo Jungermaniales*: Talus kecil, berbentuk pita, hidup epifit.\n
-     - Famili Acroynaceae: Plagiochila asplenoides.\n
+   - *Ordo Jungermaniales*: Talus kecil, berbentuk pita, hidup epifit.\n\n
+     - Famili Acroynaceae: Plagiochila asplenoides.\n\n
      - Famili Anacrogynaceae: Pnellia epiphylla, Blasia pusilla.\n\n
 
 Lumut hati memiliki talus pipih dorsiventral dan hidup di tempat lembab, sementara lumut tanduk memiliki sporangium berbentuk tanduk.\n
+\n\n
 
 
 *A. Ordo Andreales*\n\n
@@ -259,7 +264,10 @@ Contoh beberapa famili dalam kelas Dikotil:\n\n
 - *Rubiaceae: *Morinda citrifolia (mengkudu), Coffea arabica (kopi), Cinchona pubescens (kina)\n\n
 </string>
 
-    <string name="a">
+
+
+
+    <string name="Fauna">
     Pengertian Fauna\n\nFauna adalah istilah yang digunakan untuk merujuk pada semua jenis hewan yang hidup di suatu wilayah atau pada periode waktu tertentu. Hewan-hewan ini dapat diklasifikasikan berdasarkan berbagai faktor, seperti habitat, jenis makanan, dan ciri-ciri fisik.\n\nKeanekaragaman Fauna\n\nBumi memiliki keanekaragaman fauna yang luar biasa, dengan jutaan spesies hewan yang berbeda hidup di seluruh penjuru planet. Keanekaragaman ini dapat dilihat dari berbagai macam bentuk, ukuran, warna, dan perilaku hewan.\n
 
 Faktor-faktor yang mempengaruhi keanekaragaman fauna di suatu wilayah antara lain:\n\n
@@ -281,6 +289,144 @@ Fauna memiliki banyak manfaat bagi manusia, antara lain:\n\n
 </string>
 
 
+
+
+    <string name="Ekosistem">
+        Ekosistem adalah suatu sistem ekologi yang mencakup interaksi antara makhluk hidup dan lingkungan fisik di suatu wilayah tertentu. Ekosistem bisa berbentuk alami seperti hutan, danau, dan laut, atau buatan seperti taman dan lahan pertanian.
+    </string>
+    <string name="KomponenEksistem">
+        1. Komponen Biotik\n\n
+   - Produsen: Organisme yang dapat membuat makanan sendiri melalui proses fotosintesis, seperti tumbuhan hijau.\n\n
+   - Konsumen: Organisme yang memakan organisme lain. Konsumen dibagi menjadi konsumen primer (herbivora), konsumen sekunder (karnivora), dan konsumen tersier (karnivora puncak).\n\n
+   - Pengurai: Organisme yang menguraikan sisa-sisa organisme mati menjadi materi organik yang bisa dimanfaatkan kembali oleh produsen, seperti bakteri dan jamur.\n\n
+
+2. Komponen Abiotik\n\n
+   - Cahaya Matahari: Sumber energi utama bagi ekosistem yang mendukung fotosintesis.\n\n
+   - Suhu: Mempengaruhi metabolisme organisme dan distribusi spesies.\n\n
+   - Air: Esensial untuk semua bentuk kehidupan dan siklus kimia dalam ekosistem.\n\n
+   - Tanah: Menyediakan nutrisi bagi tumbuhan dan habitat bagi banyak organisme.\n\n
+   - Nutrien: Zat kimia seperti nitrogen, fosfor, dan kalium yang diperlukan untuk pertumbuhan organisme.\n\n
+
+
+Jenis-jenis ekosistem aquatik:\n\n
+
+1. Ekosistem air tawar\n\n
+
+Ciri-ciri ekosistem air tawar, yaitu:\n\n
+
+ Variasi suhu tidak menyolok, penetrasi cahaya kurang, dan terpengaruh oleh iklim dan cuaca. Macam tumbuhan yang terbanyak adalah jenis ganggang, sedangkan lainnya tumbuhan biji, Hampir semua filum hewan terdapat dalam air tawar. Organisme yang hidup di air tawar pada umumnya telah beradaptasi.
+ \n\n
+2. Ekosistem Air Laut\n\n
+
+Ciri-ciri ekosistem air laut, yaitu:\n\n
+
+ Habitat laut (oseanik) ditandai salinitas (kadar garam) yang tinggi dengan ion CI- mencapai 55% terutama di daerah laut tropik, karena suhunya tinggi dan penguapan besar. Di daerah tropik, suhu laut sekitar 25 °C. Perbedaan suhu bagian atas dan bawah tinggi, sehingga terdapat batas antara lapisan air yang panas di bagian atas dengan air yang dingin di bagian bawah yang disebut daerah termoklin.
+\n\n
+3. Ekosistem Estuary\n\n
+Muara merupakan tempat bersatunya sungai dengan laut.
+
+Ciri-ciri ekosistem Estuary, yaitu: \n\n
+-Sering dipagari oleh lempengan lumpur intertidal yang luas atau rawa garam.\n\n
+-Ekosistem estuari memiliki produktivitas yang tinggi dan kaya akan nutrisi. \n\n
+-Komunitas tumbuhan yang hidup di estuari antara lain rumput rawa garam, ganggang, dan fitoplankton. Komunitas hewannya antara lain berbagai cacing, kerang, kepiting, dan ikan
+\n\n
+4. Ekosistem Pantai
+\n\n
+Adalah tempat habitatnya tumbuhan digundukan pasir yang tahan terhadap hempasan angin
+
+Ciri-ciri ekosistem pantai, yaitu:
+\n\n
+-Tumbuhan yang hidup di ekosistem ini menjalar dan berdaun tebal.
+\n\n
+5. Ekosistem Sungai
+\n\n
+Sungai adalah suatu badan air yang
+mengalir ke satu arah
+Ciri-ciri ekosistem sungai, yaitu:
+\n\n
+-Air sungai dingin dan jernih serta mengandung sedikit sedimen dan makanan.\n\n
+-Aliran air dan gelombang secara konstan memberikan oksigen pada air. Suhu air bervariasi sesuai dengan ketinggian dan garis lintang.\n\n
+-Ekosistem sungai dihuni oleh hewan seperti ikan kucing, gurame, kura-kura, ular, dan buaya.\n\n
+
+6. Ekosistem terumbu karang
+\n\n
+Ciri-ciri ekosistem terumbu karang, yaitu:
+\n\n
+-Terdiri dari coral yang berada dekat pantai. Efisiensi ekosistem ini sangat tinggi. -Hewan-hewan yang hidup di karang memakan organisme mikroskopis dan sisa organik lain. \n\n
+-Berbagai invertebrata, mikro organisme, dan ikan, hidup di antara karang dan ganggang. \n\n
+-Herbivora seperti siput, landak laut, ikan, menjadi mangsa bagi gurita, bintang laut, dan ikan karnivora. \n\n
+-Kehadiran terumbu karang di dekat pantai membuat pantai memiliki pasir putih.\n\n
+
+
+        Jenis-jenis ekosistem darat, yaitu:\n\n
+
+1. Tundra\n\n
+
+Terdapat di belahan bumi sebelah utara di dalam lingkaran kutub utara dan terdapat di puncak-puncak gunung tinggi. Pertumbuhan tanaman di daerah ini hanya 60 hari. Contoh tumbuhan yang dominan adalah sphagnum, liken, tumbuhan biji semusim, tumbuhan perdu, dan rumput alang-alang. Pada umumnya, tumbuhannya mampu beradaptasi dengan keadaan yang dingin.
+\n\n
+2. Karst (batu gamping / gua)
+\n\n
+Berawal dari nama kawasan batu gamping di wilayah Yugoslavia. Kawasan karst di Indonesia rata-rata mempunyai ciri-ciri yang hampir sama yaitu, tanahnya kurang subur untuk pertanian, sensitif terhadap erosi, mudah longsor, bersifat rentan dengan pori-pori aerasi yang rendah, gaya permeabilitas yang lamban dan didominasi oleh pori-pori mikro. Ekosistem karst mengalami keunikan tersendiri, dengan keragaman aspek biotis yang tidak dijumpai di ekosistem lain.
+\n\n
+3. Hutan hujan tropis
+\n\n
+ Terdapat di daerah tropik dan subtropik. Ciri-cirinya adalah curah hujan 200-225 cm per tahun. Spesies pepohonan relatif banyak, jenisnya berbeda antara satu dengan yang lainnya tergantung letak geografisnya. Tinggi pohon utama antara 20-40 m, cabang-cabang pohon tinggi dan berdaun lebat hingga membentuk tudung (kanopi). Dalam hutan basah terjadi perubahan iklim mikro, yaitu iklim yang langsung terdapat di sekitar organisme. Daerah tudung cukup mendapat sinar matahari, variasi suhu dan kelembapan tinggi, suhu sepanjang hari sekitar 25 °C. Dalam hutan hujan tropis sering terdapat tumbuhan khas, yaitu liana (rotan) dan anggrek sebagai epifit. Hewannya antara lain, kera, burung, badak, babi hutan, harimau, burung hantu, dan banyak lagi yang dapat kamu pelajari di Seri Mengenal Habitat Hewan: Hutan Hujan Tropis.
+\n\n
+4. Hutan gugur
+\n\n
+Terdapat di daerah beriklim sedang yang memiliki empat musim, ciri-cirinya adalah curah hujan merata sepanjang tahun. Jenis pohon sedikit (10 s/d 20) dan tidak terlalu rapat. Hewan yang terdapat di hutam gugur antara lain rusa, beruang, rubah, bajing, burung pelatuk, dan rakun (sebangsa luwak).
+\n\n
+5. Taiga
+\n\n
+Terdapat di belahan bumi sebelah utara dan pegunungan daerah tropik, ciri-cirinya adalah suhu yang rendah di musim dingin. Biasanya taiga merupakan hutan yang tersusun atas satu spesies seperti konifer, pinus, dan sejenisnya. Semak dan tumbuhan basah sedikit sekali, sedangkan hewannya antara lain moose, beruang hitam, ajag, dan burung-burung yang bermigrasi ke selatan pada musim gugur.
+\n\n
+6. Sabana
+\n\n
+ Sabana dari daerah tropik terdapat di wilayah dengan curah hujan 40 – 60 inci per tahun, tetapi temepratur dan kelembaban masih tergantung musim. Sabana yang terluas di dunia terdapat di Afrika, Hewan yang hidup di sabana antara lain serangga dan mamalia seperti zebra, singa, dan hyena
+ \n\n
+7. Padang rumput
+\n\n
+Terdapat di daerah yang terbentang dari daerah tropik ke subtropik. Ciri-ciri padang rumput adalah curah hujan kurang lebih 25-30 cm per tahun, hujan turun tidak teratur, porositas (peresapan air) tinggi, dan drainase (aliran air) cepat. Tumbuhan yang ada terdiri atas tumbuhan terna (herbs) dan rumput yang keduanya bergantung pada kelembapan. Hewannya antara lain: bison, zebra, singa, anjing liar, serigala, gajah, jerapah, kangguru, serangga, tikus, dan ular yang dapat Grameds pelajari dalam Balita Ingin Tahu: Hewan Padang Rumput.
+
+    </string>
+    <string name="FungsiEkosistem">
+        Ekosistem menjalankan berbagai fungsi penting yang mendukung kehidupan di bumi, antara lain:\n\n
+
+1. Aliran Energi: Energi mengalir dari produsen ke konsumen dan pengurai melalui rantai makanan.\n\n
+2. Daur Materi: Nutrien didaur ulang dalam ekosistem melalui proses biologis dan kimia.\n\n
+3. Regulasi Iklim: Ekosistem seperti hutan membantu menyerap karbon dioksida dan menghasilkan oksigen, yang berdampak pada pengaturan iklim global.\n\n
+4. Penyediaan Habitat: Ekosistem menyediakan tempat tinggal bagi berbagai spesies, mendukung keanekaragaman hayati.\n\n
+5. Layanan Ekosistem: Ekosistem menyediakan berbagai layanan seperti air bersih, udara bersih, dan bahan makanan.
+    </string>
+    <string name="PentingnyaEkosistem">
+        Ekosistem sangat vital bagi keberlanjutan kehidupan di bumi. Mereka mendukung keseimbangan alam, menyediakan sumber daya yang penting bagi manusia, dan membantu mengurangi dampak perubahan iklim. Menjaga kesehatan ekosistem adalah tanggung jawab kita semua untuk memastikan kehidupan yang berkelanjutan bagi generasi mendatang.
+    </string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string name="Apaitubiologi">
         Biologi adalah cabang ilmu pengetahuan alam yang mempelajari kehidupan dan organisme hidup, termasuk struktur, fungsi, pertumbuhan, evolusi, distribusi, dan taksonominya. Ilmu biologi mencakup berbagai bidang studi yang lebih spesifik, seperti:\n\n
 
@@ -294,9 +440,10 @@ Fauna memiliki banyak manfaat bagi manusia, antara lain:\n\n
 </string>
 
     <string name="AboutUs">
-        Kami adalah kelompok 6 Struktur Data \n\nDosen : HERMANSYAH , S.Kom, M.Kom \nYang terdiri dari : \n(Ase, Bintang, Marchello Kristy, Rafael, Vico)
-        \n\nMempersembahkan aplikasi Biologi SMA sehingga dapat menambah ilmu pengetahuan dan wawasan tentang apa yang ada di sekitar kita di harapkan dapat mencerdaskan kehidupan bangsa
+        Kami adalah kelompok 6 Struktur Data \n\nDosen : HERMANSYAH , S.Kom, M.Kom \nYang terdiri dari : \n1. Ase (Pembuat Soal + Tester + Layout Design), \n2.  Bintang (Content Writer + Assets + Brainstorming), \n3. Marchello Kristy (Assets + Creative + Programmer) ,\n4. Rafael (Bug Tester + QA + Programmer), \n5.Vico (Programmer)
+        \n\nMempersembahkan aplikasi Biologi SMA 2024 sehingga dapat menambah ilmu pengetahuan dan wawasan tentang apa yang ada di sekitar kita di harapkan dapat mencerdaskan kehidupan bangsa
     </string>
+    <string name="todo">TODO</string>
 
 
 </resources>

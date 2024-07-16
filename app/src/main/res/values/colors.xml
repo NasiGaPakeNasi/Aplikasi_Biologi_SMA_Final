@@ -5,14 +5,14 @@
     <color name="hijau">#FFB65A</color>
     <color name="coklat">#9A6429</color>
 
-
     <color name="button_color">#1A4314</color> <!-- Warna Tombol -->
     <color name="warna_tulisan">#32CD30</color> <!-- Warna Tulisan -->
     <color name="warna_background">#32CD30</color> <!-- Warna Background -->
     <color name="warna_tulisanquiz">#1A4314</color> <!-- Warna Tulisan -->
 
-
-
+    <color name="colorPrimaryNight">#121212</color>
+    <color name="colorPrimaryDarkNight">#000000</color>
+    <color name="colorAccentNight">#BB86FC</color>
 
 </resources>
 

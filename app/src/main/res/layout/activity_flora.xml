@@ -1,3 +1,4 @@
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/background_tumbuhan"
+        android:src="@drawable/background_flora"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +32,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:fontFamily="@font/jetbrain"
+                android:fontFamily="@font/mondaysans"
                 android:id="@+id/textView2"
                 android:textColor="@color/warna_tulisan"
                 android:layout_width="wrap_content"
@@ -44,42 +45,53 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/imageView2"
+                android:layout_width="350dp"
+                android:background="@drawable/border"
+                android:layout_height="225dp"
+                android:src="@drawable/flora2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
 
             <TextView
                 android:id="@+id/Materi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:background="@drawable/border"
-                android:fontFamily="@font/jetbrain"
+                android:fontFamily="@font/mondaysans"
                 android:gravity="left"
+                android:layout_marginTop="10dp"
                 android:padding="15dp"
-                android:textColor="@color/warna_tulisan"
                 android:text="@string/Pendahuluan_Flora"
-                android:textSize="13dp"
+                android:textColor="@color/warna_tulisan"
+                android:textSize="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
             <ImageView
                 android:id="@+id/Gambar_Thallophyta"
                 android:layout_width="350dp"
-                android:layout_height="170dp"
-                android:src="@drawable/ayam"
+                android:layout_height="220dp"
+                android:src="@drawable/thallophyta1"
                 android:layout_marginTop="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
                 android:background="@drawable/border"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/Materi" />
 
             <TextView
-                android:id="@+id/Materi1"
+                android:id="@+id/LumutHati"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/border"
-                android:fontFamily="@font/jetbrain"
+                android:fontFamily="@font/mondaysans"
                 android:padding="20dp"
                 android:textColor="@color/warna_tulisan"
                 android:text="@string/Flora1"
@@ -88,6 +100,51 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/Gambar_Thallophyta" />
+
+
+            <TextView
+                android:id="@+id/Materi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/mondaysans"
+                android:padding="20dp"
+                android:textColor="@color/warna_tulisan"
+                android:text="@string/Flora1"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Gambar_Thallophyta" />
+
+
+            <ImageView
+                android:id="@+id/Gambar_JenisLumut"
+                android:layout_width="375dp"
+                android:layout_height="225dp"
+                android:src="@drawable/jenis2lumut"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Materi1" />
+
+            <TextView
+                android:id="@+id/Materi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/mondaysans"
+                android:padding="20dp"
+                android:textColor="@color/warna_tulisan"
+                android:text="@string/Flora2"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Gambar_JenisLumut" />
 
             <Button
                 android:id="@+id/MulaiQuizFlora"
@@ -101,7 +158,7 @@
                 android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Materi1" />
+                app:layout_constraintTop_toBottomOf="@+id/Materi2" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

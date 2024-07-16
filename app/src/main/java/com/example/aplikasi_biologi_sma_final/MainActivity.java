@@ -1,5 +1,7 @@
 package com.example.aplikasi_biologi_sma_final;
+//import android.annotation.SuppressLint;
 import android.content.Intent;
+//import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,16 +12,20 @@ import android.os.Looper;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.ImageView;
+//import android.widget.Switch;
+
+import androidx.appcompat.app.AppCompatDelegate;
+
 
 
 public class MainActivity extends AppCompatActivity {
 
     private ImageView imageView;
-    private final int[] images = {R.drawable.angiospermaebg, R.drawable.thallophytabg, R.drawable.jenislumutbg, R.drawable.spora};
+    private final int[] images = {R.drawable.angiospermaebg, R.drawable.thallophytabg, R.drawable.jenislumutbg, R.drawable.spora, R.drawable.background_pohon};
     private int currentIndex = 0;
     private final Handler handler = new Handler(Looper.getMainLooper());
     private final int ANIMATION_DURATION = 1000; // Durasi animasi dalam milidetik
-    private final int IMAGE_DISPLAY_DURATION = 3000; // Waktu tunggu sebelum gambar berganti
+    private final int IMAGE_DISPLAY_DURATION = 5000; // Waktu tunggu sebelum gambar berganti
 
     //Ini adalah Bagian Untuk Layout
     @Override
@@ -27,6 +33,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main); //Kita bekerja di Layout ini
+
+ //       AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
+
+
+//        // Mengatur night mode berdasarkan preferensi pengguna
+//        SharedPreferences preferences = getSharedPreferences("Settings", MODE_PRIVATE);
+//        boolean isNightMode = preferences.getBoolean("NightMode", false);
+//        if (isNightMode) {
+//            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+//        } else {
+//            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+//        }
+//
+//        @SuppressLint("UseSwitchCompatOrMaterialCode") Switch nightModeSwitch = findViewById(R.id.nightModeSwitch);
+//        nightModeSwitch.setChecked(isNightMode);
+//        nightModeSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
+//            SharedPreferences.Editor editor = preferences.edit();
+//            editor.putBoolean("NightMode", isChecked);
+//            editor.apply();
+//            AppCompatDelegate.setDefaultNightMode(isChecked ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
+//        });
 
         imageView = findViewById(R.id.imageView);
 
@@ -38,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         exitButton.setOnClickListener(v -> {
             finishAffinity(); //Menutup semua aktivitas dan keluar dari aplikasi
         });
+
+
     }
     private void startImageSwitching() {
         Runnable imageSwitcher = new Runnable() {
@@ -105,6 +134,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, LeaderboardActivity.class);
         startActivity(intent);
     }
+
+
 
 
 

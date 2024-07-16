@@ -5,11 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context=".Materi">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/background_biologi"
@@ -47,10 +48,12 @@
             android:id="@+id/Gambar_Flora"
             android:layout_width="200dp"
             android:layout_height="200dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="50dp"
             android:onClick="Tombol_Flora"
             android:scaleType="fitXY"
             android:src="@drawable/flora"
+            app:layout_constraintEnd_toStartOf="@+id/Ekosistem"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/PilihMateri" />
 
@@ -58,24 +61,26 @@
             android:id="@+id/Gambar_Fauna"
             android:layout_width="200dp"
             android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="5dp"
             android:onClick="Tombol_Fauna"
             android:scaleType="fitCenter"
             android:src="@drawable/fauna"
-            android:layout_marginTop="50dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Ekosistem"
             app:layout_constraintTop_toBottomOf="@+id/PilihMateri" />
 
         <ImageButton
             android:id="@+id/Ekosistem"
-            android:layout_width="410dp"
-            android:layout_height="235dp"
-            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
             android:onClick="Tombol_Ekosistem"
             android:scaleType="fitXY"
+            android:layout_marginTop="50dp"
             android:src="@drawable/ekosistem"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/Gambar_Fauna" />
+            app:layout_constraintTop_toBottomOf="@+id/PilihMateri" />
 
         <Button
             android:id="@+id/Kembali"
