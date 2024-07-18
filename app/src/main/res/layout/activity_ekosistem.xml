@@ -214,7 +214,7 @@
                 android:onClick="Tombol_MulaiQuizEkosistem"
                 android:text="Quiz"
                 android:textSize="20dp"
-                android:textColor="@color/warna_tulisan"
+                android:textColor="#000000"
                 android:fontFamily="@font/mondaysans"
                 android:backgroundTint="@color/button_color"
                 android:layout_marginTop="20dp"

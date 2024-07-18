@@ -196,8 +196,9 @@ public class QuizFlora extends AppCompatActivity {
     }
 
     private void showEncouragement() {
+        encouragementImageView.setImageResource(R.drawable.encouragement_image);
         encouragementImageView.setVisibility(View.VISIBLE);
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.kerjabagus);
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.tepuktangan);
         mediaPlayer.start();
         // Hide encouragement image and stop music after a delay
         new Handler().postDelayed(() -> {
@@ -209,9 +210,9 @@ public class QuizFlora extends AppCompatActivity {
     }
 
     private void showPartialSuccess() {
-        encouragementImageView.setImageResource(R.drawable.encouragement_image);
+        encouragementImageView.setImageResource(R.drawable.kerjabagus);
         encouragementImageView.setVisibility(View.VISIBLE);
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.tepuktangan);
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.kerjabagus);
         mediaPlayer.start();
         // Hide partial success image and stop music after a delay
         new Handler().postDelayed(() -> {

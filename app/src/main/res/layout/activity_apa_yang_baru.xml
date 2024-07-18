@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/ic_launcher_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apa Yang Baru?"
+        android:fontFamily="@font/mondaysans"
+        android:textSize="24sp"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7/18/2024 0.55: \n
+\n 1. Menambahkan Fitur Tambah Gambar dan Apa Yang Baru di bagian depan\n
+\n 2. Penyesuaian Tata Letak, Desain, Skema Warna, dan Background"
+        android:fontFamily="@font/mondaysans"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cek Pembaruan"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/mondaysans"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/backToMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:onClick="Tombol_Kembali"
+        android:layout_marginTop="270dp"
+        android:fontFamily="@font/mondaysans"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_color"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"/>
+
+
+
+
+</LinearLayout>

@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/movingBackground"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:contentDescription="@string/todo"
         android:scaleType="centerCrop"
@@ -20,7 +20,7 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="TODO"
             android:scaleType="centerCrop"
@@ -39,7 +39,7 @@
             android:fontFamily="@font/mondaysans"
             android:textColor="@color/warna_tulisan"
             android:background="@drawable/border"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -53,7 +53,7 @@
             android:onClick="Tombol_Mulai"
             android:text="Mulai"
             android:fontFamily="@font/mondaysans"
-            android:textColor="@color/warna_tulisan"
+            android:textColor="#FFFFFF"
             android:backgroundTint="@color/button_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +68,7 @@
             android:onClick="Tombol_About"
             android:text="Tentang Aplikasi"
             android:fontFamily="@font/mondaysans"
-            android:textColor="@color/warna_tulisan"
+            android:textColor="#FFFFFF"
             android:backgroundTint="@color/button_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +83,7 @@
             android:onClick="Tombol_Papan"
             android:text="Papan Peringkat"
             android:fontFamily="@font/mondaysans"
-            android:textColor="@color/warna_tulisan"
+            android:textColor="#FFFFFF"
             android:backgroundTint="@color/button_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -99,16 +99,51 @@
             android:onClick="exitButton"
             android:text="Keluar"
             android:fontFamily="@font/mondaysans"
-            android:textColor="@color/warna_tulisan"
+            android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/leaderboard" />
 
-<!--        <Switch-->
+        <Button
+            android:id="@+id/addImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:onClick="Tombol_AddImage"
+            android:text="Tambah Gambar"
+            android:fontFamily="@font/mondaysans"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/button_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exitButton" />
+
+        <Button
+            android:id="@+id/Versi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/button_color"
+            android:fontFamily="@font/mondaysans"
+            android:onClick="Tombol_ApaYangBaru"
+            android:text="Versi 0.55"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exitButton"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+        <!--        <Switch-->
 <!--            android:id="@+id/nightModeSwitch"-->
 <!--            android:layout_width="wrap_content"-->
 <!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_marginBottom="122dp"-->
 <!--            android:background="@drawable/border"-->
 <!--            android:fontFamily="@font/mondaysans"-->
 <!--            android:minHeight="48dp"-->
@@ -118,6 +153,7 @@
 <!--            app:layout_constraintEnd_toEndOf="parent"-->
 <!--            app:layout_constraintStart_toStartOf="parent"-->
 <!--            app:layout_constraintTop_toBottomOf="@+id/exitButton"-->
+<!--            app:layout_constraintVertical_bias="0.152"-->
 <!--            tools:ignore="UseSwitchCompatOrMaterialXml" />-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>

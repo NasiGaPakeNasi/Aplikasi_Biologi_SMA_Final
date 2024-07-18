@@ -13,7 +13,7 @@
         android:fontFamily="@font/mondaysans"
         android:textSize="24sp"
         android:background="@drawable/border"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_gravity="center_horizontal"
         android:padding="16dp"/>
 
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:text="Kembali"
         android:fontFamily="@font/mondaysans"
-        android:textColor="@color/warna_tulisan"
+        android:textColor="@color/white"
         android:backgroundTint="@color/button_color"
         android:layout_gravity="center_horizontal"
         android:padding="16dp"/>

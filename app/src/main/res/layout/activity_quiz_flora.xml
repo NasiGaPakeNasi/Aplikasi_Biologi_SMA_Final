@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@color/warna_tulisan">
+    android:background="@color/warna_background">
 
     <TextView
         android:id="@+id/questionTextView"
@@ -12,6 +12,7 @@
         android:fontFamily="@font/jetbrain"
         android:text="Pertanyaan muncul di sini"
         android:textColor="@color/warna_tulisanquiz"
+        android:background="@drawable/border"
         android:textSize="18sp"
         android:layout_centerHorizontal="true"/>
 
@@ -72,7 +73,7 @@
         android:layout_height="wrap_content"
         android:text="Jawab"
         android:fontFamily="@font/jetbrain"
-        android:textColor="@color/warna_tulisan"
+        android:textColor="#FFFFFF"
         android:backgroundTint="@color/button_color"
         android:layout_below="@id/answersRadioGroup"
         android:layout_centerHorizontal="true"

@@ -24,7 +24,7 @@
     \n\nLumut bersifat autotrof karena mampu melakukan fotosintesis. Reproduksinya melibatkan pembentukan spora dalam sporogonium. Spora ini terbentuk melalui meiosis dan disebarkan oleh angin. Jika jatuh di tempat lembab, spora akan tumbuh menjadi protonema dan akhirnya menjadi lumut baru, mengalami metagenesis antara generasi gametofit dan sporofit. Lumut juga dapat berkembang biak secara aseksual melalui tunas atau fragmen talus.
     </string>
 
-    <string name = "Flora2">
+    <string name="Flora2">
 *Kelas Lumut*\n\n
 
 1. *Hepaticae (Lumut Hati)*:\n\n
@@ -265,8 +265,6 @@ Contoh beberapa famili dalam kelas Dikotil:\n\n
 </string>
 
 
-
-
     <string name="Fauna">
     Pengertian Fauna\n\nFauna adalah istilah yang digunakan untuk merujuk pada semua jenis hewan yang hidup di suatu wilayah atau pada periode waktu tertentu. Hewan-hewan ini dapat diklasifikasikan berdasarkan berbagai faktor, seperti habitat, jenis makanan, dan ciri-ciri fisik.\n\nKeanekaragaman Fauna\n\nBumi memiliki keanekaragaman fauna yang luar biasa, dengan jutaan spesies hewan yang berbeda hidup di seluruh penjuru planet. Keanekaragaman ini dapat dilihat dari berbagai macam bentuk, ukuran, warna, dan perilaku hewan.\n
 
@@ -287,8 +285,6 @@ Fauna memiliki banyak manfaat bagi manusia, antara lain:\n\n
     Menjaga keseimbangan alam: Hewan merupakan bagian penting dari ekosistem dan berperan dalam menjaga keseimbangan alam.\n\n
 
 </string>
-
-
 
 
     <string name="Ekosistem">
@@ -401,30 +397,6 @@ Terdapat di daerah yang terbentang dari daerah tropik ke subtropik. Ciri-ciri pa
     <string name="PentingnyaEkosistem">
         Ekosistem sangat vital bagi keberlanjutan kehidupan di bumi. Mereka mendukung keseimbangan alam, menyediakan sumber daya yang penting bagi manusia, dan membantu mengurangi dampak perubahan iklim. Menjaga kesehatan ekosistem adalah tanggung jawab kita semua untuk memastikan kehidupan yang berkelanjutan bagi generasi mendatang.
     </string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <string name="Apaitubiologi">

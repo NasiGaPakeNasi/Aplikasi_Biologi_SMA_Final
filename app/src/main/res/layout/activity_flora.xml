@@ -153,7 +153,7 @@
                 android:fontFamily="@font/jetbrain"
                 android:onClick="Tombol_MulaiQuizFlora"
                 android:text="Quiz"
-                android:textColor="@color/warna_tulisan"
+                android:textColor="#FFFFFF"
                 android:backgroundTint="@color/button_color"
                 android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="parent"

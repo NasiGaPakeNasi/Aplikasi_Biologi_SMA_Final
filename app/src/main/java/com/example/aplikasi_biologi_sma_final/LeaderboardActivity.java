@@ -59,7 +59,7 @@ public class LeaderboardActivity extends AppCompatActivity {
                 leaderboardEntry.setText(playerName + ": Skor " + score + ", Waktu " + totalTime + " detik, Selesai pada " + finishTimeStr);
                 leaderboardEntry.setTextSize(18);
                 leaderboardEntry.setPadding(8, 8, 8, 8);
-                leaderboardEntry.setTextColor(getResources().getColor(R.color.white, getTheme()));
+                leaderboardEntry.setTextColor(getResources().getColor(R.color.black, getTheme()));
                 leaderboardEntry.setTypeface(ResourcesCompat.getFont(this, R.font.mondaysans));
 
                 // Set border background
