@@ -19,22 +19,10 @@
             android:name=".QuizEkosistem"
             android:exported="false" />
         <activity
-            android:name=".quiz_ekosistem"
-            android:exported="false" />
-        <activity
             android:name=".ekosistem"
             android:exported="false" />
         <activity
-            android:name=".Ekosistem"
-            android:exported="false" />
-        <activity
-            android:name=".fauna_rev"
-            android:exported="false" />
-        <activity
             android:name=".LeaderboardActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddMateriActivity"
             android:exported="false" />
         <activity
             android:name=".Fauna"
@@ -54,6 +42,7 @@
         <activity
             android:name=".Materi"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

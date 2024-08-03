@@ -1,3 +1,4 @@
+// MainActivity.java
 package com.example.aplikasi_biologi_sma_final;
 
 import android.content.Intent;
@@ -9,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
+
 import android.os.Handler;
 import android.os.Looper;
 import android.view.animation.AlphaAnimation;
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.jenislumutbg, R.drawable.spora,
             R.drawable.background_pohon
     };
-    private ArrayList<Bitmap> customImages = new ArrayList<>();
+    private final ArrayList<Bitmap> customImages = new ArrayList<>();
     private int currentIndex = 0;
     private final Handler handler = new Handler(Looper.getMainLooper());
     private final int ANIMATION_DURATION = 1000;
@@ -43,9 +44,7 @@ public class MainActivity extends AppCompatActivity {
         startImageSwitching();
 
         Button exitButton = findViewById(R.id.exitButton);
-        exitButton.setOnClickListener(v -> {
-            finishAffinity();
-        });
+        exitButton.setOnClickListener(v -> finishAffinity());
 
         Button addImageButton = findViewById(R.id.addImageButton);
         addImageButton.setOnClickListener(v -> {
@@ -118,11 +117,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void Tombol_Papan(View view) {
         Intent intent = new Intent(MainActivity.this, LeaderboardActivity.class);
-        startActivity(intent);
-    }
-
-    public void Tombol_ApaYangBaru(View view) {
-        Intent intent = new Intent(MainActivity.this, ApaYangBaru.class);
         startActivity(intent);
     }
 

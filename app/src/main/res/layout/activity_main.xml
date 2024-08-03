@@ -79,12 +79,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textSize="20dp"
+            android:backgroundTint="@color/button_color"
+            android:fontFamily="@font/mondaysans"
             android:onClick="Tombol_Papan"
             android:text="Papan Peringkat"
-            android:fontFamily="@font/mondaysans"
             android:textColor="#FFFFFF"
-            android:backgroundTint="@color/button_color"
+            android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/about" />
@@ -93,52 +93,35 @@
             android:id="@+id/exitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textSize="20dp"
             android:backgroundTint="@color/button_color"
+            android:fontFamily="@font/mondaysans"
             android:onClick="exitButton"
             android:text="Keluar"
-            android:fontFamily="@font/mondaysans"
+            android:layout_marginTop="20dp"
             android:textColor="#FFFFFF"
+            android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/leaderboard" />
+            app:layout_constraintTop_toBottomOf="@+id/addImageButton" />
 
         <Button
             android:id="@+id/addImageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textSize="20dp"
+            android:backgroundTint="@color/button_color"
+            android:fontFamily="@font/mondaysans"
             android:onClick="Tombol_AddImage"
             android:text="Tambah Gambar"
-            android:fontFamily="@font/mondaysans"
             android:textColor="#FFFFFF"
-            android:backgroundTint="@color/button_color"
+            android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/exitButton" />
-
-        <Button
-            android:id="@+id/Versi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="@color/button_color"
-            android:fontFamily="@font/mondaysans"
-            android:onClick="Tombol_ApaYangBaru"
-            android:text="Versi 0.55"
-            android:textColor="#FFFFFF"
-            android:textSize="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/addImageButton"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@+id/leaderboard" />
 
 
-        <!--        <Switch-->
+
+<!--<Switch-->
 <!--            android:id="@+id/nightModeSwitch"-->
 <!--            android:layout_width="wrap_content"-->
 <!--            android:layout_height="wrap_content"-->
@@ -155,6 +138,5 @@
 <!--            app:layout_constraintTop_toBottomOf="@+id/exitButton"-->
 <!--            app:layout_constraintVertical_bias="0.152"-->
 <!--            tools:ignore="UseSwitchCompatOrMaterialXml" />-->
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

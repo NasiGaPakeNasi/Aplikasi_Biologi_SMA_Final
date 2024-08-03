@@ -92,7 +92,7 @@ public class QuizEkosistem extends AppCompatActivity {
                 "Suatu tempat yang hanya dihuni oleh tumbuhan",
                 "Suatu lingkungan yang tidak memiliki kehidupan",
                 "Suatu kumpulan hewan dalam kebun binatang",
-                "Suatu sistem ekologi yang mencakup interaksi antara makhluk hidup dan lingkungan fisik.", R.drawable.ekolokasi));
+                "Suatu sistem ekologi yang mencakup interaksi antara makhluk hidup dan lingkungan fisik", R.drawable.ekolokasi));
 
         questionsList.add(new Question("Contoh komponen biotik adalah",
                 "Air",
